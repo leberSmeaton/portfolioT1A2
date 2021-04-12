@@ -1,4 +1,4 @@
-/* colors: f4f4f4, ff9d72, ffd66b, 654062*/
+/* colors: f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
 * {
   color: #f4f4f4;
   background-color: #444444;
@@ -6,10 +6,55 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
 }
 
-img {
+/* Header */
+#landing {
+  margin-bottom: 60px;
+}
+#landing img {
+  border-radius: 100%;
+  width: 200px;
+}
+#landing button {
+  padding: 15px 40px;
+  border-radius: 20px;
+}
+#landing h4 {
+  font-style: italic;
+}
+#landing a {
+  color: #ffd66b;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Body */
+#landingImages img {
   width: 250px;
+  padding: 20px 0;
+}
+
+/* 
+Nav 
+*/
+#navModal {
+  display: flex;
+  position: absolute;
+  background-color: transparent;
+}
+#navModal button {
+  align-content: center;
+  border: none;
+  background-color: transparent;
+}
+#navModal button .fas,
+#navModal button .fab {
+  font-size: 60px;
+  background-color: transparent;
 }
 
 /* The Modal (background) */

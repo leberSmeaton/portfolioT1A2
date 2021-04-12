@@ -6,13 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bella Leber Smeaton</title>
+
+  <!--font awesome icons-->
+  <script src="https://kit.fontawesome.com/7483e96227.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="src/style.css">
 </head>
 
 <body>
-  <nav>
+  <nav id="navModal">
     <!-- Trigger/Open The Modal -->
-    <button id="myBtnAbout">About</button>
+    <button id="myBtnAbout">
+      <i class="fas fa-cat"></i>
+    </button>
     <!-- The Modal -->
     <div id="myModalAbout" class="modal">
       <!-- Modal content -->
@@ -22,7 +28,9 @@
       </div>
     </div>
 
-    <button id="myBtnSkills">Skills</button>
+    <button id="myBtnSkills">
+      <i class="fab fa-fort-awesome"></i>
+    </button>
     <div id="myModalSkills" class="modal">
       <div class="modal-content">
         <span class="close">&times;</span>
@@ -30,7 +38,9 @@
       </div>
     </div>
 
-    <button id="myBtnContact">Contact</button>
+    <button id="myBtnContact">
+      <i class="fas fa-satellite"></i>
+    </button>
     <div id="myModalContact" class="modal">
       <div class="modal-content">
         <span class="close">&times;</span>
@@ -38,7 +48,9 @@
       </div>
     </div>
 
-    <button id="myBtnInfo">Info</button>
+    <button id="myBtnInfo">
+      <i class="fas fa-hand-sparkles"></i>
+    </button>
     <div id="myModalInfo" class="modal">
       <div class="modal-content">
         <span class="close">&times;</span>
@@ -46,14 +58,15 @@
       </div>
     </div>
   </nav>
-  <header>
+  
+  <header id="landing">
     <img src="img/photoBella.jpg" alt="photo of bella">
     <h2>Bella Leber Smeaton</h2>
     <button>Resume</button>
     <h4>la vita e bella</h4>
     <a href="/">⬇︎</a>
   </header>
-  <main>
+  <main id="landingImages">
     <div>
       <a href="projectTtotal.html">
         <img src="/img/ttotal1.png" alt="ttotal website landing page">
