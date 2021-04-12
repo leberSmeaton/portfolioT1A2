@@ -3,18 +3,18 @@
 * {
   color: #f4f4f4;
   background-color: #444444;
+  box-sizing: border-box;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  display: block;
-  margin: 20px auto;
 }
 
 /* Header */
 
 #landing {
+  margin-top: 10px;
   margin-bottom: 60px;
 
   img {
@@ -22,11 +22,16 @@ body {
     width: 200px;
   }
   button {
-    padding: 15px 40px;
+    padding: 25px 60px;
     border-radius: 20px;
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 24px;
   }
   h4 {
     font-style: italic;
+    font-size: 22px;
   }
   a {
     color: #ffd66b;
@@ -38,64 +43,68 @@ body {
 /* Body */
 
 #landingImages img {
-  width: 250px;
-  padding: 20px 0;
+  width: 100%;
+  padding-bottom: 20px;
 }
 
 /* 
 Nav 
 */
 #navModal {
-  display: flex;
-  position: absolute;
   background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
   button {
-    align-content: center;
+    :hover {
+      color: #ffd66b;
+    }
     border: none;
     background-color: transparent;
     .fas,
     .fab {
-      font-size: 60px;
+      font-size: 50px;
       background-color: transparent;
     }
   }
-}
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 80px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #444444; /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+  /* Modal Content */
+  .modal-content {
+    background-color: rgba(244, 244, 244, 0.4);
+    margin: auto;
+    padding: 20px 25px;
+    border: none;
+    width: 100%;
+    h4,
+    p {
+      padding: 10px;
+      text-align: left;
+    }
+  }
 
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
-
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+  /* The Close Button */
+  .close {
+    color: #ffd66b;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    :hover,
+    :focus {
+      color: #ff9d72;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
 }
