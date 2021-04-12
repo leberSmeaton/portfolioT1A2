@@ -14,7 +14,6 @@ body {
 /* Header */
 
 #landing {
-  margin-top: 15%;
   margin-bottom: 60px;
 
   img {
@@ -22,31 +21,25 @@ body {
     width: 200px;
     border: 3px solid #444444;
     box-shadow: 0 0 50px 3px #ffd66b;
+    margin-top: 25px;
   }
   h2 {
-    padding-top: 20px;
+    letter-spacing: 1.5px;
     font-size: 24px;
-  }
-  button {
-    margin: 0;
-    color: #ffd66b;
-    padding: 20px 60px;
-    background-color: transparent;
-    border: none;
-    font-size: 18px;
   }
   h4 {
     font-style: italic;
-    font-size: 22px;
+    font-size: 24px;
+    margin: 0;
   }
-  div {
-    a {
-      margin-top: 20px;
-      display: block;
-      color: #ffd66b;
-      text-decoration: none;
-      font-size: 30px;
-    }
+  a {
+    display: block;
+    color: #ffd66b;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  a:hover {
+    color: #ff9d72;
   }
 }
 
