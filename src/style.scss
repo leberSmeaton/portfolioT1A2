@@ -48,9 +48,21 @@ body {
 
 /* Body */
 
-#landingImages img {
-  width: 100%;
-  padding-bottom: 20px;
+#landingImages {
+  h4 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #ffd66b;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    padding: 5px 10px;
+    box-shadow: 0 0 10px 3px #444444;
+  }
+  img {
+    width: 100%;
+    padding-bottom: 20px;
+  }
 }
 
 /* 
