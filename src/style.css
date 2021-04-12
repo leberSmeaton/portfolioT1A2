@@ -1,40 +1,46 @@
 /* colors: f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
 * {
-  color: #f4f4f4;
-  background-color: #444444;
   box-sizing: border-box;
 }
 
 body {
+  color: #f4f4f4;
+  background-color: #444444;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
 /* Header */
 #landing {
-  margin-top: 10px;
+  margin-top: 15%;
   margin-bottom: 60px;
 }
 #landing img {
   border-radius: 100%;
   width: 200px;
+  border: 3px solid #444444;
+  box-shadow: 0 0 50px 3px #ffd66b;
+}
+#landing h2 {
+  padding-top: 20px;
+  font-size: 24px;
 }
 #landing button {
+  margin: 0;
   padding: 25px 60px;
   border-radius: 20px;
   font-size: 18px;
-}
-#landing h2 {
-  font-size: 24px;
 }
 #landing h4 {
   font-style: italic;
   font-size: 22px;
 }
 #landing a {
+  margin-top: 20px;
+  display: block;
   color: #ffd66b;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /* Body */
@@ -48,14 +54,13 @@ Nav
 */
 #navModal {
   background-color: transparent;
-  display: flex;
-  justify-content: space-evenly;
   /* The Modal (background) */
   /* Modal Content */
   /* The Close Button */
 }
 #navModal button {
   border: none;
+  color: #f4f4f4;
   background-color: transparent;
 }
 #navModal button :hover {
@@ -111,6 +116,22 @@ Nav
   color: #ff9d72;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* 
+Footer 
+*/
+footer {
+  margin: 50px 10px 0;
+}
+footer p {
+  font-size: 1em;
+}
+footer p a {
+  color: #f4f4f4;
+}
+footer p :hover {
+  color: #ff9d72;
 }
 
 /*# sourceMappingURL=style.css.map */
