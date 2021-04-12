@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bella Leber Smeaton - Previous Projects</title>
+
+  <!--font awesome icons-->
+  <script src="https://kit.fontawesome.com/7483e96227.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body id="header">
+  <nav id="navModal">
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtnAbout">
+      <i class="fas fa-cat"></i>
+    </button>
+    <!-- The Modal -->
+    <div id="myModalAbout" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h4>
+          About Me
+        </h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae facere voluptatum enim atque
+          mollitia, similique cum dicta doloremque consequatur ex et error, deleniti laboriosam a nam
+          temporibus, eligendi dolorum alias explicabo illo impedit? Cum ducimus quo dolor laborum in
+          doloremque hic? Laboriosam saepe harum ex temporibus earum rem sint fugiat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quam!
+        </p>
+      </div>
+    </div>
+
+    <button id="myBtnSkills">
+      <i class="fab fa-fort-awesome"></i>
+    </button>
+    <div id="myModalSkills" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+      </div>
+    </div>
+
+    <button id="myBtnContact">
+      <i class="fas fa-satellite"></i>
+    </button>
+    <div id="myModalContact" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+      </div>
+    </div>
+
+    <button id="myBtnInfo">
+      <i class="fas fa-hand-sparkles"></i>
+    </button>
+    <div id="myModalInfo" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+      </div>
+    </div>
+  </nav>
+
+  <header id="landing">
+    <h2>Bella Leber Smeaton</h2>
+  </header>
+
+  <main id="projectArticle">
+    <article>
+      <h2>External Projects Blog</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, incidunt officiis ea quam debitis
+        architecto?
+        Reprehenderit deleniti illum necessitatibus totam. Nihil, alias enim!</p>
+    </article>
+    <h2>EAT.ME.DO</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quo.</p>
+    <img src="/img/emd1.png" alt=" page of website">
+    <img src="/img/emd2.png" alt=" page of website">
+    <img src="/img/emd3.png" alt=" page of website">
+    <img src="/img/emd4.png" alt=" page of website">
+    
+    <h2>Landscape Architecture Final Project</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quo.</p>
+    <img src="/img/LAPortfolio.jpg" alt=" page of website">
+    <img src="/img/LAPortfolio1.jpg" alt=" page of website">
+    <img src="/img/LAPortfolio2.jpg" alt=" page of website">
+    <img src="/img/LAPortfolio3.jpg" alt=" page of website">
+    <img src="/img/LAPortfolio4.jpg" alt=" page of website">
+
+    <h2>KERB 21 Journal</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quo.</p>
+    <img src="/img/KERB21 cover.jpg" alt=" page of website">
+    <img src="/img/Kerb-21 contents.jpg" alt=" page of website">
+    <img src="/img/Kerb-21.jpg" alt=" page of website">
+  </main>
+
+  <footer>
+    <p>
+      <a href="https://github.com/leberSmeaton/portfolioT1A2" target="blank">
+        Open-source code </a> by <a href="https://www.linkedin.com/in/bella-leber-smeaton/" target="blank">
+        Bella Leber Smeaton </a> | <a href="mailto:leber.smeaton@yahoo.com" target="blank">
+        Contact + Feedback
+      </a> | <a href="#header"> Back to the top</a>
+    </p>
+  </footer>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModalAbout");
+    // var modal = document.getElementById("myModalSkills");
+    // var modal = document.getElementById("myModalContact");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtnAbout");
+    // var btn = document.getElementById("myBtnSkills");
+    // var btn = document.getElementById("myBtnContact");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function () {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>
