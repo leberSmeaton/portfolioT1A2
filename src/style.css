@@ -151,10 +151,11 @@ footer p :hover {
   padding: 20px 20px;
 }
 
-/* External Projects */
+/* 
+External Projects 
+*/
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -174,44 +175,31 @@ footer p :hover {
   margin-top: -22px;
   padding: 16px;
   color: #ffd66b;
+  background-color: rgba(250, 250, 250, 0.7);
   font-weight: bold;
   font-size: 24px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
   user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border: none;
+  border-radius: 0 3px 3px 0;
 }
 
 .prev {
   left: 0;
+  border: none;
+  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #ffd66b;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #ff9d72;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ff9d72;
 }
 
 /* Fading animation */
