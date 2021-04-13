@@ -11,96 +11,73 @@ body {
   background-color: $bkg-color;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-/* Header */
-
-#landing {
-  margin-bottom: 60px;
-
-  img {
-    border-radius: 100%;
-    width: 200px;
-    border: 3px solid $bkg-color;
-    box-shadow: 0 0 50px 3px $box-shadows;
-    margin-top: 35px;
-  }
-  h2 {
-    letter-spacing: 1.5px;
-    font-size: 24px;
-    margin-bottom: 0;
-  }
-  h4 {
-    font-style: italic;
-    font-size: 24px;
-    margin: 0;
-  }
-  a {
-    display: block;
-    color: $anchor-color;
-    text-decoration: none;
-    font-size: 30px;
-  }
-  a:hover {
-    color: $anchor-hover;
-  }
+/* -- Body -- */
+/* Nav */
+#navFlexColumn {
+  display: flex;
+  justify-content: space-evenly;
 }
-
-/* Body */
-/* landing images projects */
-
-#landingImages {
-  h4 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    color: $h4-color;
-    background-color: rgba(250, 250, 250, 0.9);
-    border: none;
-    padding: 5px 10px;
-    box-shadow: 0 0 10px 3px $box-shadows;
-  }
-  img {
-    width: 100%;
-  }
-  div {
-    padding-bottom: 50px;
-  }
-}
-
-/* 
-Nav 
-*/
 
 #navModal {
-  background-color: transparent;
+  display: flex;
+  flex-direction: column;
 
+  background-image: linear-gradient(
+    180deg,
+    rgba(68, 68, 68, 1),
+    rgba(68, 68, 68, 0.9),
+    rgba(68, 68, 68, 0.8),
+    rgba(68, 68, 68, 0)
+  );
+
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+  padding-top: 5px;
   a {
     color: $heading-icon-color;
-    margin-top: 20px;
+    margin-top: 5px;
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+
+    &:hover {
+      color: $anchor-hover;
+    }
   }
-  a:hover {
-    color: $anchor-hover;
+
+  h2 {
+    letter-spacing: 1.2px;
+    font-size: 28px;
+    margin: 0;
+    font-family: $h2-font;
   }
 
   button {
-    :hover {
-      color: $anchor-hover;
-    }
     border: none;
     color: $font-icon-color;
-    background-color: transparent;
+    background-color: $bkg-color-transparent;
+
+    &:hover {
+      color: $anchor-hover;
+    }
+
     .fas,
     .fab {
-      font-size: 50px;
-      background-color: transparent;
+      font-size: $heading-icon-size;
+      background-color: $bkg-color-transparent;
     }
   }
 
   /* The Modal (background) */
   .modal {
     display: none; /* Hidden by default */
-    position: absolute; /* Stay in place */
+    position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 80px; /* Location of the box */
     left: 0;
@@ -118,9 +95,10 @@ Nav
     padding: 20px 25px;
     border: none;
     width: 100%;
-    h2,
-    p {
-      text-align: justify;
+    text-align: justify;
+    h2 {
+      font-family: $h2-font;
+      color: $heading-icon-color;
     }
   }
 
@@ -130,12 +108,13 @@ Nav
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  .close:hover,
-  .close:focus {
-    color: #ff9d72;
-    text-decoration: none;
-    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      color: $anchor-hover;
+      text-decoration: none;
+      cursor: $cursor-pointer;
+    }
   }
 
   .modal-content {
@@ -144,7 +123,7 @@ Nav
     justify-content: space-evenly;
     .fab,
     .fas {
-      font-size: 50px;
+      font-size: $heading-icon-size;
       color: $heading-icon-color;
       background-color: $bkg-color;
       padding: 5px;
@@ -154,9 +133,57 @@ Nav
   }
 }
 
-/* 
-Footer 
-*/
+/* Header */
+#landing {
+  margin: 80px 0 60px 0;
+
+  img {
+    border-radius: 100%;
+    width: 200px;
+    border: 3px solid $bkg-color;
+    box-shadow: 0 0 50px 3px $box-shadows;
+    margin-top: 65px;
+  }
+  h4 {
+    font-style: italic;
+    font-size: 24px;
+    margin: 0;
+  }
+  a {
+    display: block;
+    color: $anchor-color;
+    text-decoration: none;
+    font-size: 30px;
+
+    &:hover {
+      color: $anchor-hover;
+    }
+  }
+}
+
+/* landing images projects */
+#landingImages {
+  img {
+    width: 100%;
+  }
+  h4 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: $h4-color;
+    font-family: $h2-font;
+    font-size: 1.5em;
+    background-color: rgba(250, 250, 250, 0.9);
+    border: none;
+    padding: 0 10px;
+    box-shadow: 0 0 10px 3px $box-shadows;
+  }
+  div {
+    padding-bottom: 50px;
+  }
+}
+
+/* Footer */
 footer {
   margin: 50px 0 0 0;
   p {
@@ -164,9 +191,10 @@ footer {
     margin: 0 0 10px 0;
     a {
       color: $anchor-color;
-    }
-    :hover {
-      color: #ff9d72;
+
+      &:hover {
+        color: $anchor-hover;
+      }
     }
   }
 }
@@ -187,9 +215,10 @@ footer {
     padding: 20px 20px;
     a {
       color: $anchor-color;
-    }
-    a:hover {
-      color: #ff9d72;
+
+      &:hover {
+        color: $anchor-hover;
+      }
     }
   }
 }
@@ -206,7 +235,7 @@ External Projects Blog
   /* Next & previous buttons */
   .prev,
   .next {
-    cursor: pointer;
+    cursor: $cursor-pointer;
     position: absolute;
     top: 50%;
     width: auto;
@@ -225,18 +254,21 @@ External Projects Blog
   .next {
     right: 0;
     border-radius: 0 3px 3px 0;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #ff9d72;
+    }
   }
 
   .prev {
     left: 0;
     border-radius: 3px 0 0 3px;
-  }
 
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #ff9d72;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: $anchor-hover;
+    }
   }
 
   /* Fading animation */
