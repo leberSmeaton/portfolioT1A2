@@ -1,4 +1,5 @@
 /* colors: f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
+/* colors: background gray 444444, offwhite f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
 * {
   box-sizing: border-box;
 }
@@ -82,7 +83,7 @@ Nav
   background-color: transparent;
 }
 #navModal button :hover {
-  color: #ffd66b;
+  color: #ff9d72;
 }
 #navModal button .fas,
 #navModal button .fab {
@@ -158,7 +159,7 @@ footer p {
   margin: 0 0 10px 0;
 }
 footer p a {
-  color: #f4f4f4;
+  color: #ffd66b;
 }
 footer p :hover {
   color: #ff9d72;
