@@ -171,6 +171,7 @@ footer p :hover {
 }
 #projectArticle img {
   width: 100%;
+  margin: 10px 0;
 }
 #projectArticle article {
   width: 100%;
