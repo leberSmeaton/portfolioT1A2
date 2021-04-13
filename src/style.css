@@ -166,12 +166,21 @@ footer p :hover {
 
 /* projectTtotal */
 /* main */
+#projectArticle p {
+  text-align: justify;
+}
 #projectArticle img {
   width: 100%;
 }
 #projectArticle article {
   width: 100%;
   padding: 20px 20px;
+}
+#projectArticle article a {
+  color: #ffd66b;
+}
+#projectArticle article a:hover {
+  color: #ff9d72;
 }
 
 /* 

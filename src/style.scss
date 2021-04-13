@@ -174,12 +174,21 @@ footer {
 /* main */
 
 #projectArticle {
+  p {
+    text-align: justify;
+  }
   img {
     width: 100%;
   }
   article {
     width: 100%;
     padding: 20px 20px;
+    a {
+      color: #ffd66b;
+    }
+    a:hover {
+      color: #ff9d72;
+    }
   }
 }
 
