@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  border: 1px solid pink;
 }
 
 body {
@@ -65,6 +66,18 @@ body {
 /* 
 Nav 
 */
+.modal-content {
+  .fab,
+  .fas {
+    font-size: 20px;
+    color: #ffd66b;
+    background-color: transparent;
+  }
+  img {
+    width: 20px;
+  }
+}
+
 #navModal {
   background-color: transparent;
   button {

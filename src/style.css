@@ -1,6 +1,7 @@
 /* colors: f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
 * {
   box-sizing: border-box;
+  border: 1px solid pink;
 }
 
 body {
@@ -59,6 +60,16 @@ body {
 /* 
 Nav 
 */
+.modal-content .fab,
+.modal-content .fas {
+  font-size: 20px;
+  color: #ffd66b;
+  background-color: transparent;
+}
+.modal-content img {
+  width: 20px;
+}
+
 #navModal {
   background-color: transparent;
   /* The Modal (background) */
