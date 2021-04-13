@@ -63,21 +63,18 @@ body {
 /* 
 Nav 
 */
-.modal-content .fab,
-.modal-content .fas {
-  font-size: 20px;
-  color: #ffd66b;
-  background-color: transparent;
-}
-.modal-content img {
-  width: 20px;
-}
-
 #navModal {
   background-color: transparent;
   /* The Modal (background) */
   /* Modal Content */
   /* The Close Button */
+}
+#navModal a {
+  color: #ffd66b;
+  margin-top: 20px;
+}
+#navModal a:hover {
+  color: #ff9d72;
 }
 #navModal button {
   border: none;
@@ -114,15 +111,14 @@ Nav
 }
 #navModal .modal-content {
   background-color: rgba(0, 0, 0, 0.6);
-  margin: auto;
+  margin: 0 auto;
   padding: 20px 25px;
   border: none;
   width: 100%;
 }
-#navModal .modal-content h4,
+#navModal .modal-content h2,
 #navModal .modal-content p {
-  padding: 10px;
-  text-align: left;
+  text-align: justify;
 }
 #navModal .close {
   color: #ffd66b;
@@ -135,6 +131,20 @@ Nav
   color: #ff9d72;
   text-decoration: none;
   cursor: pointer;
+}
+#navModal .modal-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#navModal .modal-content .fab,
+#navModal .modal-content .fas {
+  font-size: 50px;
+  color: #ffd66b;
+  background-color: #444444;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
 }
 
 /* 
@@ -165,23 +175,20 @@ footer p :hover {
 }
 
 /* 
-External Projects 
+External Projects Blog
 */
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+  /* Fading animation */
 }
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
+.slideshow-container .prev,
+.slideshow-container .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -196,33 +203,26 @@ External Projects
   user-select: none;
   border: none;
 }
-
-/* Position the "next button" to the right */
-.next {
+.slideshow-container .next {
   right: 0;
   border-radius: 0 3px 3px 0;
 }
-
-.prev {
+.slideshow-container .prev {
   left: 0;
   border-radius: 3px 0 0 3px;
 }
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
+.slideshow-container .prev:hover,
+.slideshow-container .next:hover {
   background-color: rgba(0, 0, 0, 0.5);
   color: #ff9d72;
 }
-
-/* Fading animation */
-.fade {
+.slideshow-container .fade {
+  display: none;
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
   from {
     opacity: 0.4;

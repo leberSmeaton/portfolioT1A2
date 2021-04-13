@@ -70,20 +70,18 @@ body {
 /* 
 Nav 
 */
-.modal-content {
-  .fab,
-  .fas {
-    font-size: 20px;
-    color: #ffd66b;
-    background-color: transparent;
-  }
-  img {
-    width: 20px;
-  }
-}
 
 #navModal {
   background-color: transparent;
+
+  a {
+    color: #ffd66b;
+    margin-top: 20px;
+  }
+  a:hover {
+    color: #ff9d72;
+  }
+
   button {
     :hover {
       color: #ffd66b;
@@ -97,6 +95,7 @@ Nav
       background-color: transparent;
     }
   }
+
   /* The Modal (background) */
   .modal {
     display: none; /* Hidden by default */
@@ -110,17 +109,17 @@ Nav
     overflow: auto; /* Enable scroll if needed */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   }
+
   /* Modal Content */
   .modal-content {
     background-color: rgba(0, 0, 0, 0.6);
-    margin: auto;
+    margin: 0 auto;
     padding: 20px 25px;
     border: none;
     width: 100%;
-    h4,
+    h2,
     p {
-      padding: 10px;
-      text-align: left;
+      text-align: justify;
     }
   }
 
@@ -136,6 +135,21 @@ Nav
     color: #ff9d72;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .modal-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .fab,
+    .fas {
+      font-size: 50px;
+      color: #ffd66b;
+      background-color: #444444;
+      padding: 5px;
+      margin: 2px;
+      border-radius: 5px;
+    }
   }
 }
 
@@ -170,78 +184,74 @@ footer {
 }
 
 /* 
-External Projects 
+External Projects Blog
 */
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
-}
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: #ffd66b;
-  background-color: rgba(250, 250, 250, 0.7);
-  font-weight: bold;
-  font-size: 24px;
-  transition: 0.6s ease;
-  user-select: none;
-  border: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 0 3px 3px 0;
-}
-
-.prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #ff9d72;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #ffd66b;
+    background-color: rgba(250, 250, 250, 0.7);
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    user-select: none;
+    border: none;
   }
-  to {
-    opacity: 1;
-  }
-}
 
-@keyframes fade {
-  from {
-    opacity: 0.4;
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 0 3px 3px 0;
   }
-  to {
-    opacity: 1;
+
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ff9d72;
+  }
+
+  /* Fading animation */
+  .fade {
+    display: none;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
