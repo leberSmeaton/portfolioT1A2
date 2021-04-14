@@ -16,7 +16,7 @@
 
 ![myImage](https://media.giphy.com/media/XRB1uf2F9bGOA/giphy.gif)
 
-## [Portfolio Summary](#PortfolioSummary)
+## Portfolio Summary
 
 This portfolio website is a work in progress and collection of projects to showcase my full-stack abilities. By the end of this course this portfolio will be my finished piece.
 
@@ -26,11 +26,11 @@ This portfolio website is a work in progress and collection of projects to showc
 
 [LinkdIn](https://www.linkedin.com/in/bella-leber-smeaton/)
 
-## [Purpose](#Purpose)
+## Purpose
 
 I am a developer and IT professional. This portfolio is built to communicate and demonstrate my abilities to my prospective employers. Here I will showcase my skills, interests and professional knowledge. I will aim to make this porfolio as accessible as possible.
 
-### [Functionality / Features](#FunctionalityFeatures)
+### Functionality / Features
 
 1st Iteration
 ![MyWireframe]()
@@ -45,18 +45,18 @@ I am a developer and IT professional. This portfolio is built to communicate and
 - Tech Projects
 - External Projects Blog
 
-### [Site Map](#SiteMap)
+### Site Map
 
 ![MySitemap]()
 
-### [Screen Shots](#ScreenShots)
+### Screen Shots
 
 ![Screenshot1]()
 ![Screenshot2]()
 ![Screenshot3]()
 ![Screenshot4]()
 
-### [Target Audience](#TargetAudience)
+### Target Audience
 
 _Prospective employers_
 
@@ -68,7 +68,7 @@ _Prospective employers_
 
 **As Iryna**, I want to see the rubric answered clearly and cleanly, so I can best report and grade Bella's success and failures.
 
-### [Tech Stack](#TechStack)
+### Tech Stack
 
 - Html 5
 - CSS + Sass
