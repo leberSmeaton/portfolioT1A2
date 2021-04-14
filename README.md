@@ -24,7 +24,7 @@ This portfolio website is a work in progress and collection of projects to showc
 
 [GitHub Repo](https://github.com/leberSmeaton/portfolioT1A2)
 
-[LinkdIn](https://www.linkedin.com/in/bella-leber-smeaton/)
+[LinkedIn](https://www.linkedin.com/in/bella-leber-smeaton/)
 
 ## <a id="Purpose"></a>Purpose
 
@@ -32,12 +32,10 @@ I am a developer and IT professional. This portfolio is built to communicate and
 
 ### <a id="FunctionalityFeatures"></a>Functionality / Features
 
-1st Iteration
-![MyWireframe]()
-2nd Iteration
-![MyWireframe]()
-3rd Iteration
-![MyWireframe]()
+![wireframe1](/img/wireframe1.png)
+![wireframe2](/img/wireframe2.png)
+![wireframe3](/img/wireframe3.png)
+![wireframe4](/img/wireframe4.png)
 
 - Mobile first
 - Static quick vav links to important info
@@ -45,11 +43,11 @@ I am a developer and IT professional. This portfolio is built to communicate and
 - Tech Projects
 - External Projects Blog
 
-### <a id="SiteMap"></a>Site Map
+### <a id="Sitemap"></a>Site Map
 
-![MySitemap]()
+![MySitemap](/img/sitemap.png)
 
-### <a id="Screenshots"></a>Screen Shots
+### <a id="Screenshots"></a>Screenshots
 
 ![Screenshot1]()
 ![Screenshot2]()
