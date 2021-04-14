@@ -298,3 +298,95 @@ External Projects Blog
     }
   }
 }
+
+@media screen and (min-width: 400px) {
+  #navModal {
+    background-image: none;
+
+    a {
+      font-size: 1em;
+    }
+
+    p {
+      font-size: 2em;
+    }
+
+    h2 {
+      letter-spacing: 1.2px;
+      font-size: 3em;
+      margin: 0 auto;
+    }
+
+    button {
+      .fas,
+      .fab {
+        font-size: 80px;
+      }
+    }
+
+    .icon1 {
+      margin: 5px 0 0 5px;
+      position: fixed;
+      left: 0;
+      top: 0;
+      .myBtn {
+        color: #000000;
+      }
+    }
+
+    .icon2 {
+      margin: 5px 5px 0 0;
+      position: fixed;
+      right: 0;
+      top: 0;
+      .myBtn {
+        color: #000;
+      }
+    }
+
+    .icon3 {
+      margin: 0 5px 5px 0;
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      .myBtn {
+        color: #000;
+      }
+    }
+
+    .icon4 {
+      margin: 0 0 5px 5px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      .myBtn {
+        color: #000;
+      }
+    }
+
+    /* The Modal (background) */
+    .modal {
+      padding-top: 100px; /* Location of the box */
+    }
+
+    /* The Close Button */
+    .close {
+      font-size: 50px;
+    }
+
+    .modal-content {
+      .fab,
+      .fas {
+        font-size: 80px;
+        padding: 10px;
+        margin: 4px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
+  }
+}
