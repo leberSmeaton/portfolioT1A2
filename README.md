@@ -1,22 +1,22 @@
 # T1A2 - Portfolio - Bella Leber Smeaton
 
-##### [Portfolio Summary](#Portfolio Summary)
+##### [Portfolio Summary](#PortfolioSummary)
 
 ##### [Purpose](#Purpose)
 
-##### [Functionality / features](#Functionality / Features)
+##### [Functionality / features](#FunctionalityFeatures)
 
 ##### [Sitemap](#Sitemap)
 
 ##### [Screenshots](#Screenshots)
 
-##### [Target Audience](#Target Audience)
+##### [Target Audience](#TargetAudience)
 
-##### [Tech Stack](#Tech Stack)
+##### [Tech Stack](#TechStack)
 
 ![myImage](https://media.giphy.com/media/XRB1uf2F9bGOA/giphy.gif)
 
-## [Portfolio Summary](#Portfolio Summary)
+## [Portfolio Summary](#PortfolioSummary)
 
 This portfolio website is a work in progress and collection of projects to showcase my full-stack abilities. By the end of this course this portfolio will be my finished piece.
 
@@ -30,7 +30,7 @@ This portfolio website is a work in progress and collection of projects to showc
 
 I am a developer and IT professional. This portfolio is built to communicate and demonstrate my abilities to my prospective employers. Here I will showcase my skills, interests and professional knowledge. I will aim to make this porfolio as accessible as possible.
 
-### [Functionality / Features](#Functionality / Features)
+### [Functionality / Features](#FunctionalityFeatures)
 
 1st Iteration
 ![MyWireframe]()
@@ -49,18 +49,18 @@ I am a developer and IT professional. This portfolio is built to communicate and
 
 ![MySitemap]()
 
-### [Screen Shots](#Screen Shots)
+### [Screen Shots](#ScreenShots)
 
 ![Screenshot1]()
 ![Screenshot2]()
 ![Screenshot3]()
 ![Screenshot4]()
 
-### [Target Audience](#Target Audience)
+### [Target Audience](#TargetAudience)
 
 _Prospective employers_
 
-##### [User Stories](#User Stories)
+#### User Stories
 
 **As a recruiter**, I want to be able to easily and quickly get to skills and resume and not be distracted, so I can make a sound and educated decision on this future employee.
 
@@ -68,7 +68,7 @@ _Prospective employers_
 
 **As Iryna**, I want to see the rubric answered clearly and cleanly, so I can best report and grade Bella's success and failures.
 
-### [Tech Stack](#Tech Stack)
+### [Tech Stack](#TechStack)
 
 - Html 5
 - CSS + Sass
