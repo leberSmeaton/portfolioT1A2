@@ -54,8 +54,9 @@ body {
   h2 {
     letter-spacing: 1.2px;
     font-size: 28px;
-    margin: 0;
+    margin: 0 auto;
     font-family: $h2-font;
+    -webkit-text-stroke: 0.1px #000;
   }
 
   button {
@@ -146,14 +147,14 @@ body {
   }
   h4 {
     font-style: italic;
-    font-size: 24px;
+    font-size: 1.5em;
     margin: 0;
   }
   a {
     display: block;
     color: $anchor-color;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.5em;
 
     &:hover {
       color: $anchor-hover;
@@ -174,9 +175,10 @@ body {
     font-family: $h2-font;
     font-size: 1.5em;
     background-color: rgba(255, 214, 107, 0.9);
-    border: none;
+    border: 1px solid rgba(255, 214, 107, 0.9);
     padding: 0 10px;
     box-shadow: 0 0 10px 3px $box-shadows;
+    margin-top: 5%;
   }
   div {
     padding-bottom: 50px;
@@ -314,7 +316,6 @@ External Projects Blog
     h2 {
       letter-spacing: 1.2px;
       font-size: 3em;
-      margin: 0 auto;
     }
 
     button {
@@ -324,43 +325,45 @@ External Projects Blog
       }
     }
 
-    .icon1 {
-      margin: 5px 0 0 5px;
-      position: fixed;
-      left: 0;
-      top: 0;
-      .myBtn {
-        color: #000000;
+    #navFlexColumn {
+      .icon1 {
+        margin: 5px 0 0 5px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        .myBtn {
+          color: #000000;
+        }
       }
-    }
 
-    .icon2 {
-      margin: 5px 5px 0 0;
-      position: fixed;
-      right: 0;
-      top: 0;
-      .myBtn {
-        color: #000;
+      .icon2 {
+        margin: 5px 5px 0 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        .myBtn {
+          color: #000;
+        }
       }
-    }
 
-    .icon3 {
-      margin: 0 5px 5px 0;
-      position: fixed;
-      right: 0;
-      bottom: 0;
-      .myBtn {
-        color: #000;
+      .icon3 {
+        margin: 0 5px 5px 0;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        .myBtn {
+          color: #000;
+        }
       }
-    }
 
-    .icon4 {
-      margin: 0 0 5px 5px;
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      .myBtn {
-        color: #000;
+      .icon4 {
+        margin: 0 0 5px 5px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        .myBtn {
+          color: #000;
+        }
       }
     }
 
@@ -383,10 +386,156 @@ External Projects Blog
       }
     }
   }
+
+  #landing {
+    img {
+      width: 350px;
+    }
+    h4 {
+      font-size: 3em;
+    }
+    a {
+      font-size: 3em;
+    }
+  }
+
+  #landingImages {
+    img {
+      width: 90%;
+    }
+    h4 {
+      display: block;
+      margin: 0 auto;
+      font-size: 3em;
+      width: 80%;
+      margin-top: 5%;
+    }
+    div {
+      padding-bottom: 50px;
+    }
+  }
+
+  footer {
+    width: 65%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 800px) {
-  body {
-    background-color: lavender;
+  #navModal {
+    background-image: none;
+
+    a {
+      font-size: 1em;
+    }
+
+    p {
+      font-size: 2em;
+    }
+
+    h2 {
+      letter-spacing: 1.2px;
+      font-size: 3em;
+    }
+
+    button {
+      .fas,
+      .fab {
+        font-size: 80px;
+      }
+    }
+
+    #navFlexColumn {
+      .icon1 {
+        margin: 5px 0 0 5px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        .myBtn {
+          color: #000000;
+        }
+      }
+
+      .icon2 {
+        margin: 5px 5px 0 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        .myBtn {
+          color: #000;
+        }
+      }
+
+      .icon3 {
+        margin: 0 5px 5px 0;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        .myBtn {
+          color: #000;
+        }
+      }
+
+      .icon4 {
+        margin: 0 0 5px 5px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        .myBtn {
+          color: #000;
+        }
+      }
+    }
+
+    /* The Modal (background) */
+    .modal {
+      padding-top: 100px; /* Location of the box */
+    }
+
+    /* The Close Button */
+    .close {
+      font-size: 50px;
+    }
+
+    .modal-content {
+      .fab,
+      .fas {
+        font-size: 80px;
+        padding: 10px;
+        margin: 4px;
+      }
+    }
+  }
+
+  #landing {
+    img {
+      width: 300px;
+    }
+    h4 {
+      font-size: 2em;
+    }
+    a {
+      font-size: 2.5em;
+    }
+  }
+
+  #landingImages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 40px;
+    div {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      img {
+        width: 400px;
+      }
+      h4 {
+        font-size: 2em;
+        width: 80%;
+        margin-top: 5%;
+      }
+    }
   }
 }
