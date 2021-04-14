@@ -1,22 +1,22 @@
 # T1A2 - Portfolio - Bella Leber Smeaton
 
-## Portfolio Summary
+##### [Portfolio Summary](#Portfolio Summary)
 
-## Purpose
+##### [Purpose](#Purpose)
 
-## Functionality / features
+##### [Functionality / features](#Functionality / Features)
 
-## Sitemap
+##### [Sitemap](#Sitemap)
 
-## Screenshots
+##### [Screenshots](#Screenshots)
 
-## Target Audience
+##### [Target Audience](#Target Audience)
 
-## Tech Stack
+##### [Tech Stack](#Tech Stack)
 
 ![myImage](https://media.giphy.com/media/XRB1uf2F9bGOA/giphy.gif)
 
-## Portfolio Summary
+## [Portfolio Summary](#Portfolio Summary)
 
 This portfolio website is a work in progress and collection of projects to showcase my full-stack abilities. By the end of this course this portfolio will be my finished piece.
 
@@ -24,20 +24,60 @@ This portfolio website is a work in progress and collection of projects to showc
 
 [GitHub Repo](https://github.com/leberSmeaton/portfolioT1A2)
 
-## Purpose
+[LinkdIn](https://www.linkedin.com/in/bella-leber-smeaton/)
 
-### Target Audience
+## [Purpose](#Purpose)
 
-### User Stories
+I am a developer and IT professional. This portfolio is built to communicate and demonstrate my abilities to my prospective employers. Here I will showcase my skills, interests and professional knowledge. I will aim to make this porfolio as accessible as possible.
 
-As a recruiter, I want to be able to easily and quickly get to skills and resume and not be distracted, so I can make a sound and educated decision on this future employee.
+### [Functionality / Features](#Functionality / Features)
 
-### Functionality / Features
+1st Iteration
+![MyWireframe]()
+2nd Iteration
+![MyWireframe]()
+3rd Iteration
+![MyWireframe]()
 
-- Wireframe
+- Mobile first
+- Static quick vav links to important info
+- Landing Page straight to resume/skills
+- Tech Projects
+- External Projects Blog
 
-### Site Map
+### [Site Map](#SiteMap)
 
-### Screen Shots
+![MySitemap]()
 
-### Tech Stack
+### [Screen Shots](#Screen Shots)
+
+![Screenshot1]()
+![Screenshot2]()
+![Screenshot3]()
+![Screenshot4]()
+
+### [Target Audience](#Target Audience)
+
+_Prospective employers_
+
+##### [User Stories](#User Stories)
+
+**As a recruiter**, I want to be able to easily and quickly get to skills and resume and not be distracted, so I can make a sound and educated decision on this future employee.
+
+**As a developer and future employer**, I want to see personality, see clean code and efficiency so I can assess their suitability to my workplace.
+
+**As Iryna**, I want to see the rubric answered clearly and cleanly, so I can best report and grade Bella's success and failures.
+
+### [Tech Stack](#Tech Stack)
+
+- Html 5
+- CSS + Sass
+- Javascript
+- Git + GitHub
+- Netlify
+  - Depoloyment
+- Google Fonts + Font Awesome
+- Trello
+  - Project Management
+- Discord
+  - Cross communication
