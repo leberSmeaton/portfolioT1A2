@@ -18,7 +18,7 @@
 
 ## <a id="PortfolioSummary"></a>Portfolio Summary
 
-This portfolio website is a work in progress and collection of projects to showcase my full-stack abilities. By the end of this course this portfolio will be my finished piece.
+This portfolio website is a collection of projects to showcase my full-stack abilities. By the end of this course this portfolio will be my finished piece. My goal is to continue to add, upgrade and finese.
 
 [Published Portfolio](https://sleepy-heisenberg-2b3192.netlify.app)
 
@@ -28,14 +28,9 @@ This portfolio website is a work in progress and collection of projects to showc
 
 ## <a id="Purpose"></a>Purpose
 
-I am a developer and IT professional. This portfolio is built to communicate and demonstrate my abilities to my prospective employers. Here I will showcase my skills, interests and professional knowledge. I will aim to make this porfolio as accessible as possible.
+I am a developer and IT professional. This portfolio is built to communicate and demonstrate my abilities to my prospective employers. Here I will showcase my skills, interests and professional knowledge. I will aim to make this portfolio as accessible as possible.
 
 ### <a id="FunctionalityFeatures"></a>Functionality / Features
-
-![wireframe1](/img/wireframe1.png)
-![wireframe2](/img/wireframe2.png)
-![wireframe3](/img/wireframe3.png)
-![wireframe4](/img/wireframe4.png)
 
 - Mobile first
 - Static quick vav links to important info
@@ -43,16 +38,20 @@ I am a developer and IT professional. This portfolio is built to communicate and
 - Tech Projects
 - External Projects Blog
 
+![wireframe1](/img/wireframe1.png)
+![wireframe2](/img/wireframe2.png)
+![wireframe3](/img/wireframe3.png)
+
 ### <a id="Sitemap"></a>Site Map
 
 ![MySitemap](/img/sitemap.png)
 
 ### <a id="Screenshots"></a>Screenshots
 
-![Screenshot1]()
-![Screenshot2]()
-![Screenshot3]()
-![Screenshot4]()
+![Screenshot1](/img/screenshot1.png)
+![Screenshot2](/img/screenshot2.png)
+![Screenshot3](/img/screenshot3.png)
+![Screenshot4](/img/screenshot4.png)
 
 ### <a id="TargetAudience"></a>Target Audience
 
@@ -66,7 +65,9 @@ _Prospective employers_
 
 **As Iryna**, I want to see the rubric answered clearly and cleanly, so I can best report and grade Bella's success and failures.
 
-### <a id="TechStack"></a>Tech Stack
+### <a id="TechStack"></a>Portfolio Tech Stack
+
+_Please checkout my portfolio website and skills to see my full tech stack capabilities_
 
 - Html 5
 - CSS + Sass
