@@ -185,6 +185,10 @@ footer p a:hover {
 
 /* projectTtotal */
 /* main */
+main {
+  margin: 120px 40px 0;
+}
+
 #projectArticle p {
   text-align: justify;
 }
