@@ -224,22 +224,39 @@ main {
   margin: 120px 40px 0;
 }
 
+#projectArticle h2 {
+  text-align: left;
+}
+
+#projectArticle h4 {
+  position: relative;
+  color: #ffd66b;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.4em;
+  margin: 0 auto;
+  padding: 2px 0;
+  border-top: 1px solid #ffd66b;
+}
+
 #projectArticle p {
   text-align: justify;
+  font-size: 1.3em;
+  margin-top: 10px;
 }
 
 #projectArticle img {
   width: 100%;
-  margin: 10px 0;
+  margin: 8px 0;
 }
 
 #projectArticle article {
   width: 100%;
-  padding: 20px 20px;
+  padding: 10px 10px;
 }
 
 #projectArticle article a {
   color: #ffd66b;
+  font-size: 1.2em;
 }
 
 #projectArticle article a:hover {
@@ -249,8 +266,49 @@ main {
 /* 
 External Projects Blog
 */
-/* Slideshow container */
-.slideshow-container {
+#externalProjects {
+  /* Slideshow container */
+}
+
+#externalProjects div {
+  padding-bottom: 20px;
+}
+
+#externalProjects div h2 {
+  text-align: left;
+}
+
+#externalProjects article {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+}
+
+#externalProjects article h4 {
+  position: relative;
+  color: #ffd66b;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.4em;
+  margin: 0 auto;
+  border-top: 1px solid #ffd66b;
+}
+
+#externalProjects article a {
+  color: #ffd66b;
+  font-size: 1.2em;
+}
+
+#externalProjects article a:hover {
+  color: #ff9d72;
+}
+
+#externalProjects p {
+  text-align: justify;
+  font-size: 1.3em;
+  margin-top: 10px;
+}
+
+#externalProjects .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -259,8 +317,13 @@ External Projects Blog
   /* Fading animation */
 }
 
-.slideshow-container .prev,
-.slideshow-container .next {
+#externalProjects .slideshow-container img {
+  width: 100%;
+  margin: 8px 0;
+}
+
+#externalProjects .slideshow-container .prev,
+#externalProjects .slideshow-container .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -280,27 +343,27 @@ External Projects Blog
   border: none;
 }
 
-.slideshow-container .next {
+#externalProjects .slideshow-container .next {
   right: 0;
   border-radius: 0 3px 3px 0;
 }
 
-.slideshow-container .next:hover {
+#externalProjects .slideshow-container .next:hover {
   background-color: rgba(0, 0, 0, 0.5);
   color: #ff9d72;
 }
 
-.slideshow-container .prev {
+#externalProjects .slideshow-container .prev {
   left: 0;
   border-radius: 3px 0 0 3px;
 }
 
-.slideshow-container .prev:hover {
+#externalProjects .slideshow-container .prev:hover {
   background-color: rgba(0, 0, 0, 0.5);
   color: #ff9d72;
 }
 
-.slideshow-container .fade {
+#externalProjects .slideshow-container .fade {
   display: none;
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -416,7 +479,7 @@ External Projects Blog
   }
   footer {
     width: 65%;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 }
 
@@ -514,6 +577,48 @@ External Projects Blog
   #landingImages div h4 {
     font-size: 2em;
     width: 100%;
+  }
+  #projectArticle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #projectArticle div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 800px;
+  }
+  #projectArticle section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #projectArticle article {
+    width: 400px;
+    margin: 10px 10px;
+  }
+  #projectArticle article h4 {
+    font-size: 1.6em;
   }
 }
 /*# sourceMappingURL=style.css.map */
