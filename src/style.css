@@ -1,7 +1,8 @@
 /* colors: f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
 /* colors: background gray 444444, offwhite f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -16,13 +17,23 @@ body {
 /* -- Body -- */
 /* Nav */
 #navFlexColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 #navModal {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), color-stop(rgba(68, 68, 68, 0.9)), color-stop(rgba(68, 68, 68, 0.8)), to(rgba(68, 68, 68, 0)));
   background-image: linear-gradient(180deg, #444444, rgba(68, 68, 68, 0.9), rgba(68, 68, 68, 0.8), rgba(68, 68, 68, 0));
   position: fixed;
   width: 100%;
@@ -33,6 +44,7 @@ body {
   /* Modal Content */
   /* The Close Button */
 }
+
 #navModal a {
   color: #ffd66b;
   margin-top: 5px;
@@ -40,9 +52,11 @@ body {
   text-decoration: none;
   font-size: 18px;
 }
+
 #navModal a:hover {
   color: #ff9d72;
 }
+
 #navModal h2 {
   letter-spacing: 1.2px;
   font-size: 28px;
@@ -50,19 +64,23 @@ body {
   font-family: "Permanent Marker", cursive;
   -webkit-text-stroke: 0.1px #000;
 }
+
 #navModal button {
   border: none;
   color: #f4f4f4;
   background-color: transparent;
 }
+
 #navModal button:hover {
   color: #ff9d72;
 }
+
 #navModal button .fas,
 #navModal button .fab {
   font-size: 50px;
   background-color: transparent;
 }
+
 #navModal .modal {
   display: none;
   /* Hidden by default */
@@ -83,6 +101,7 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   /* Black w/ opacity */
 }
+
 #navModal .modal-content {
   background-color: rgba(0, 0, 0, 0.6);
   margin: 0 auto;
@@ -91,26 +110,36 @@ body {
   width: 100%;
   text-align: justify;
 }
+
 #navModal .modal-content h2 {
   font-family: "Permanent Marker", cursive;
   color: #ffd66b;
 }
+
 #navModal .close {
   color: #ffd66b;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
+
 #navModal .close:hover, #navModal .close:focus {
   color: #ff9d72;
   text-decoration: none;
   cursor: pointer;
 }
+
 #navModal .modal-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
+
 #navModal .modal-content .fab,
 #navModal .modal-content .fas {
   font-size: 50px;
@@ -125,24 +154,29 @@ body {
 #landing {
   margin: 80px 0 60px 0;
 }
+
 #landing img {
   border-radius: 100%;
   width: 200px;
   border: 3px solid #444444;
-  box-shadow: 0 0 50px 3px #ffd66b;
+  -webkit-box-shadow: 0 0 50px 3px #ffd66b;
+          box-shadow: 0 0 50px 3px #ffd66b;
   margin-top: 65px;
 }
+
 #landing h4 {
   font-style: italic;
   font-size: 1.5em;
   margin: 0;
 }
+
 #landing a {
   display: block;
   color: #ffd66b;
   text-decoration: none;
   font-size: 1.5em;
 }
+
 #landing a:hover {
   color: #ff9d72;
 }
@@ -151,19 +185,17 @@ body {
 #landingImages img {
   width: 100%;
 }
+
 #landingImages h4 {
-  position: absolute;
-  left: 0;
-  right: 0;
-  color: #444444;
+  position: relative;
+  color: #ffd66b;
   font-family: "Permanent Marker", cursive;
-  font-size: 1.5em;
-  background-color: rgba(255, 214, 107, 0.9);
-  border: 1px solid rgba(255, 214, 107, 0.9);
-  padding: 0 10px;
-  box-shadow: 0 0 10px 3px #ffd66b;
-  margin-top: 5%;
+  font-size: 1.4em;
+  margin: 0 auto;
+  padding: 2px 0;
+  border-top: 1px solid #ffd66b;
 }
+
 #landingImages div {
   padding-bottom: 50px;
 }
@@ -172,13 +204,16 @@ body {
 footer {
   margin: 50px 0 0 0;
 }
+
 footer p {
   font-size: 1em;
   margin: 0 0 10px 0;
 }
+
 footer p a {
   color: #ffd66b;
 }
+
 footer p a:hover {
   color: #ff9d72;
 }
@@ -192,17 +227,21 @@ main {
 #projectArticle p {
   text-align: justify;
 }
+
 #projectArticle img {
   width: 100%;
   margin: 10px 0;
 }
+
 #projectArticle article {
   width: 100%;
   padding: 20px 20px;
 }
+
 #projectArticle article a {
   color: #ffd66b;
 }
+
 #projectArticle article a:hover {
   color: #ff9d72;
 }
@@ -219,6 +258,7 @@ External Projects Blog
   /* Position the "next button" to the right */
   /* Fading animation */
 }
+
 .slideshow-container .prev,
 .slideshow-container .next {
   cursor: pointer;
@@ -231,26 +271,35 @@ External Projects Blog
   background-color: rgba(250, 250, 250, 0.7);
   font-weight: bold;
   font-size: 24px;
+  -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   border: none;
 }
+
 .slideshow-container .next {
   right: 0;
   border-radius: 0 3px 3px 0;
 }
+
 .slideshow-container .next:hover {
   background-color: rgba(0, 0, 0, 0.5);
   color: #ff9d72;
 }
+
 .slideshow-container .prev {
   left: 0;
   border-radius: 3px 0 0 3px;
 }
+
 .slideshow-container .prev:hover {
   background-color: rgba(0, 0, 0, 0.5);
   color: #ff9d72;
 }
+
 .slideshow-container .fade {
   display: none;
   -webkit-animation-name: fade;
@@ -258,6 +307,7 @@ External Projects Blog
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 @-webkit-keyframes fade {
   from {
     opacity: 0.4;
@@ -266,6 +316,7 @@ External Projects Blog
     opacity: 1;
   }
 }
+
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -292,7 +343,7 @@ External Projects Blog
     font-size: 3em;
   }
   #navModal button .fas,
-#navModal button .fab {
+  #navModal button .fab {
     font-size: 80px;
   }
   #navModal #navFlexColumn .icon1 {
@@ -339,12 +390,11 @@ External Projects Blog
     font-size: 50px;
   }
   #navModal .modal-content .fab,
-#navModal .modal-content .fas {
+  #navModal .modal-content .fas {
     font-size: 80px;
     padding: 10px;
     margin: 4px;
   }
-
   #landing img {
     width: 350px;
   }
@@ -354,26 +404,22 @@ External Projects Blog
   #landing a {
     font-size: 3em;
   }
-
   #landingImages img {
     width: 90%;
   }
   #landingImages h4 {
-    display: block;
-    margin: 0 auto;
     font-size: 3em;
-    width: 80%;
-    margin-top: 5%;
+    width: 90%;
   }
   #landingImages div {
     padding-bottom: 50px;
   }
-
   footer {
     width: 65%;
     margin: 0 auto;
   }
 }
+
 @media screen and (min-width: 800px) {
   #navModal {
     background-image: none;
@@ -391,7 +437,7 @@ External Projects Blog
     font-size: 3em;
   }
   #navModal button .fas,
-#navModal button .fab {
+  #navModal button .fab {
     font-size: 80px;
   }
   #navModal #navFlexColumn .icon1 {
@@ -438,12 +484,11 @@ External Projects Blog
     font-size: 50px;
   }
   #navModal .modal-content .fab,
-#navModal .modal-content .fas {
+  #navModal .modal-content .fas {
     font-size: 80px;
     padding: 10px;
     margin: 4px;
   }
-
   #landing img {
     width: 300px;
   }
@@ -453,26 +498,22 @@ External Projects Blog
   #landing a {
     font-size: 2.5em;
   }
-
   #landingImages {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin: 0 40px;
-  }
-  #landingImages div {
-    display: flex;
-    justify-content: center;
-    position: relative;
   }
   #landingImages div img {
     width: 400px;
   }
   #landingImages div h4 {
     font-size: 2em;
-    width: 80%;
-    margin-top: 5%;
+    width: 100%;
   }
 }
-
 /*# sourceMappingURL=style.css.map */

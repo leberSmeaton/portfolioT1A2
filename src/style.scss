@@ -168,17 +168,13 @@ body {
     width: 100%;
   }
   h4 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    color: $h4-color;
+    position: relative;
+    color: #ffd66b;
     font-family: $h2-font;
-    font-size: 1.5em;
-    background-color: rgba(255, 214, 107, 0.9);
-    border: 1px solid rgba(255, 214, 107, 0.9);
-    padding: 0 10px;
-    box-shadow: 0 0 10px 3px $box-shadows;
-    margin-top: 5%;
+    font-size: 1.4em;
+    margin: 0 auto;
+    padding: 2px 0;
+    border-top: 1px solid #ffd66b;
   }
   div {
     padding-bottom: 50px;
@@ -408,11 +404,8 @@ External Projects Blog
       width: 90%;
     }
     h4 {
-      display: block;
-      margin: 0 auto;
       font-size: 3em;
-      width: 80%;
-      margin-top: 5%;
+      width: 90%;
     }
     div {
       padding-bottom: 50px;
@@ -529,16 +522,12 @@ External Projects Blog
     flex-wrap: wrap;
     margin: 0 40px;
     div {
-      display: flex;
-      justify-content: center;
-      position: relative;
       img {
         width: 400px;
       }
       h4 {
         font-size: 2em;
-        width: 80%;
-        margin-top: 5%;
+        width: 100%;
       }
     }
   }
