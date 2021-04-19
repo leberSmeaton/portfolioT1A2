@@ -48,10 +48,10 @@ I am a developer and IT professional. This portfolio is built to communicate and
 
 ### <a id="Screenshots"></a>Screenshots
 
-![Screenshot1](/img/readmeIMGS/screenshotLanding.png){:height="100px"}
-![Screenshot2](/img/readmeIMGS/screenshotNavSkills.png){:height="100px"}
-![Screenshot3](/img/readmeIMGS/screenshotProjects.png){:height="100px"}
-![Screenshot4](/img/readmeIMGS/screenshotBlogPost.png){:height="100px"}
+<img src="/img/readmeIMGS/screenshotLanding.png" width="50">
+<img src="/img/readmeIMGS/screenshotNavSkills.png" width="50">
+<img src="/img/readmeIMGS/screenshotProjects.png" width="50">
+<img src="/img/readmeIMGS/screenshotBlogPost.png" width="50">
 
 ### <a id="TargetAudience"></a>Target Audience
 
