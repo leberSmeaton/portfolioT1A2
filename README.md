@@ -14,6 +14,8 @@
 
 ##### [Tech Stack](#TechStack)
 
+##### [Work In Progress](#WorkInProgress)
+
 ![myImage](https://media.giphy.com/media/XRB1uf2F9bGOA/giphy.gif)
 
 ## <a id="PortfolioSummary"></a>Portfolio Summary
@@ -30,7 +32,7 @@ This portfolio website is a collection of projects to showcase my full-stack abi
 
 I am a developer and IT professional. This portfolio is built to communicate and demonstrate my abilities to my prospective employers. Here I will showcase my skills, interests and professional knowledge. I will aim to make this portfolio as accessible as possible.
 
-### <a id="FunctionalityFeatures"></a>Functionality / Features
+## <a id="FunctionalityFeatures"></a>Functionality / Features
 
 - Mobile first
 - Static quick vav links to important info
@@ -38,24 +40,24 @@ I am a developer and IT professional. This portfolio is built to communicate and
 - Tech Projects
 - External Projects Blog
 
-<img src="/img/readmeIMGS/wireframe1.png" width="200">
-<img src="/img/readmeIMGS/wireframe2.png" width="200">
-<img src="/img/readmeIMGS/wireframe3.png" width="200">
+![wireframe](/img/readmeIMGS/wireframe1.png)
+![wireframe](/img/readmeIMGS/wireframe2.png)
+![wireframe](/docs/wireframe3.png)
 
-### <a id="Sitemap"></a>Site Map
+## <a id="Sitemap"></a>Site Map
 
 ![MySitemap](/img/readmeIMGS/sitemap.png)
 
-### <a id="Screenshots"></a>Screenshots
+## <a id="Screenshots"></a>Screenshots
 
-<img src="/img/readmeIMGS/screenshotLanding.png" width="200">
-<img src="/img/readmeIMGS/screenshotNavSkills.png" width="200">
-<img src="/img/readmeIMGS/screenshotProjects.png" width="200">
-<img src="/img/readmeIMGS/screenshotBlogPost.png" width="200">
+![Landing](/docs/screenshotLanding.png)
+![NavModalSkills](/docs/screenshotNavSkills.png)
+![Projects](/docs/screenshotProjects.png)
+![BlogPosts](/docs/screenshotBlogPost.png)
 
-### <a id="TargetAudience"></a>Target Audience
+## <a id="TargetAudience"></a>Target Audience
 
-_Prospective employers_
+_Prospective Tech Employers_
 
 #### User Stories
 
@@ -65,7 +67,7 @@ _Prospective employers_
 
 **As Iryna**, I want to see the rubric answered clearly and cleanly, so I can best report and grade Bella's success and failures.
 
-### <a id="TechStack"></a>Portfolio Tech Stack
+## <a id="TechStack"></a>Portfolio Tech Stack
 
 _Please checkout my portfolio website and skills to see my full tech stack capabilities_
 
@@ -80,3 +82,11 @@ _Please checkout my portfolio website and skills to see my full tech stack capab
   - Project Management
 - Discord
   - Cross communication
+
+## <a id="WorkInProgress"></a>Work In Progress Shots
+
+_A collection of screenshots during the work in progress of this portfolio_
+
+#### Trello
+
+#### Git Command Line
