@@ -1,5 +1,214 @@
 /* colors: f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
 /* colors: background gray 444444, offwhite f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
+/* Index.html */
+/* Nav */
+#navFlexColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#navModal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), color-stop(rgba(68, 68, 68, 0.9)), color-stop(rgba(68, 68, 68, 0.8)), to(rgba(68, 68, 68, 0)));
+  background-image: linear-gradient(180deg, #444444, rgba(68, 68, 68, 0.9), rgba(68, 68, 68, 0.8), rgba(68, 68, 68, 0));
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+  padding-top: 5px;
+  /* The Modal (background) */
+  /* Modal Content */
+  /* The Close Button */
+}
+
+#navModal a {
+  color: #ffd66b;
+  margin-top: 5px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#navModal a:hover {
+  color: #ff9d72;
+}
+
+#navModal h2 {
+  letter-spacing: 1.2px;
+  font-size: 28px;
+  margin: 0 auto;
+  font-family: "Permanent Marker", cursive;
+  -webkit-text-stroke: 0.1px #000;
+}
+
+#navModal button {
+  border: none;
+  color: #f4f4f4;
+  background-color: transparent;
+}
+
+#navModal button:hover {
+  color: #ff9d72;
+}
+
+#navModal button .fas,
+#navModal button .fab {
+  font-size: 50px;
+  background-color: transparent;
+}
+
+#navModal .modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 80px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+#navModal .modal-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  padding: 20px 25px;
+  border: none;
+  width: 100%;
+  text-align: justify;
+}
+
+#navModal .modal-content h2 {
+  font-family: "Permanent Marker", cursive;
+  color: #ffd66b;
+}
+
+#navModal .close {
+  color: #ffd66b;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#navModal .close:hover, #navModal .close:focus {
+  color: #ff9d72;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#navModal .modal-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#navModal .modal-content .fab,
+#navModal .modal-content .fas {
+  font-size: 50px;
+  color: #ffd66b;
+  background-color: #444444;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+/* Header */
+#landing {
+  margin: 80px 0 60px 0;
+}
+
+#landing img {
+  border-radius: 100%;
+  width: 200px;
+  border: 3px solid #444444;
+  -webkit-box-shadow: 0 0 50px 3px #ffd66b;
+          box-shadow: 0 0 50px 3px #ffd66b;
+  margin-top: 65px;
+}
+
+#landing h4 {
+  font-style: italic;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+#landing a {
+  display: block;
+  color: #ffd66b;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+#landing a:hover {
+  color: #ff9d72;
+}
+
+/* main */
+main {
+  margin: 120px 40px 0;
+}
+
+/* project images */
+#projectImages img {
+  width: 100%;
+}
+
+#projectImages h4 {
+  position: relative;
+  color: #ffd66b;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.4em;
+  margin: 0 auto;
+  padding: 2px 0;
+  border-top: 1px solid #ffd66b;
+}
+
+#projectImages div {
+  padding-bottom: 50px;
+}
+
+/* Footer */
+footer {
+  margin: 50px 0 0 0;
+}
+
+footer p {
+  font-size: 1em;
+  margin: 0 0 10px 0;
+}
+
+footer p a {
+  color: #ffd66b;
+}
+
+footer p a:hover {
+  color: #ff9d72;
+}
+
 /* 
 Project Articles
 */
@@ -180,215 +389,6 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-}
-
-/* -- Body -- */
-/* Nav */
-#navFlexColumn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-#navModal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), color-stop(rgba(68, 68, 68, 0.9)), color-stop(rgba(68, 68, 68, 0.8)), to(rgba(68, 68, 68, 0)));
-  background-image: linear-gradient(180deg, #444444, rgba(68, 68, 68, 0.9), rgba(68, 68, 68, 0.8), rgba(68, 68, 68, 0));
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-  top: 0;
-  padding-top: 5px;
-  /* The Modal (background) */
-  /* Modal Content */
-  /* The Close Button */
-}
-
-#navModal a {
-  color: #ffd66b;
-  margin-top: 5px;
-  display: inline-block;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-#navModal a:hover {
-  color: #ff9d72;
-}
-
-#navModal h2 {
-  letter-spacing: 1.2px;
-  font-size: 28px;
-  margin: 0 auto;
-  font-family: "Permanent Marker", cursive;
-  -webkit-text-stroke: 0.1px #000;
-}
-
-#navModal button {
-  border: none;
-  color: #f4f4f4;
-  background-color: transparent;
-}
-
-#navModal button:hover {
-  color: #ff9d72;
-}
-
-#navModal button .fas,
-#navModal button .fab {
-  font-size: 50px;
-  background-color: transparent;
-}
-
-#navModal .modal {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  padding-top: 80px;
-  /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
-}
-
-#navModal .modal-content {
-  background-color: rgba(0, 0, 0, 0.6);
-  margin: 0 auto;
-  padding: 20px 25px;
-  border: none;
-  width: 100%;
-  text-align: justify;
-}
-
-#navModal .modal-content h2 {
-  font-family: "Permanent Marker", cursive;
-  color: #ffd66b;
-}
-
-#navModal .close {
-  color: #ffd66b;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-#navModal .close:hover, #navModal .close:focus {
-  color: #ff9d72;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-#navModal .modal-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-#navModal .modal-content .fab,
-#navModal .modal-content .fas {
-  font-size: 50px;
-  color: #ffd66b;
-  background-color: #444444;
-  padding: 5px;
-  margin: 2px;
-  border-radius: 5px;
-}
-
-/* Header */
-#landing {
-  margin: 80px 0 60px 0;
-}
-
-#landing img {
-  border-radius: 100%;
-  width: 200px;
-  border: 3px solid #444444;
-  -webkit-box-shadow: 0 0 50px 3px #ffd66b;
-          box-shadow: 0 0 50px 3px #ffd66b;
-  margin-top: 65px;
-}
-
-#landing h4 {
-  font-style: italic;
-  font-size: 1.5em;
-  margin: 0;
-}
-
-#landing a {
-  display: block;
-  color: #ffd66b;
-  text-decoration: none;
-  font-size: 1.5em;
-}
-
-#landing a:hover {
-  color: #ff9d72;
-}
-
-/* project images */
-#projectImages img {
-  width: 100%;
-}
-
-#projectImages h4 {
-  position: relative;
-  color: #ffd66b;
-  font-family: "Permanent Marker", cursive;
-  font-size: 1.4em;
-  margin: 0 auto;
-  padding: 2px 0;
-  border-top: 1px solid #ffd66b;
-}
-
-#projectImages div {
-  padding-bottom: 50px;
-}
-
-/* Footer */
-footer {
-  margin: 50px 0 0 0;
-}
-
-footer p {
-  font-size: 1em;
-  margin: 0 0 10px 0;
-}
-
-footer p a {
-  color: #ffd66b;
-}
-
-footer p a:hover {
-  color: #ff9d72;
-}
-
-/* main */
-main {
-  margin: 120px 40px 0;
 }
 
 /* Media Queries */
