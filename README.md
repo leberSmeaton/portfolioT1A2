@@ -38,20 +38,20 @@ I am a developer and IT professional. This portfolio is built to communicate and
 - Tech Projects
 - External Projects Blog
 
-![wireframe1](/img/wireframe1.png)
-![wireframe2](/img/wireframe2.png)
-![wireframe3](/img/wireframe3.png)
+![wireframe1](/img/readmeIMGS/wireframe1.png)
+![wireframe2](/img/readmeIMGS/wireframe2.png)
+![wireframe3](/img/readmeIMGS/wireframe3.png)
 
 ### <a id="Sitemap"></a>Site Map
 
-![MySitemap](/img/sitemap.png)
+![MySitemap](/img/readmeIMGS/sitemap.png)
 
 ### <a id="Screenshots"></a>Screenshots
 
-![Screenshot1](/img/screenshot1.png)
-![Screenshot2](/img/screenshot2.png)
-![Screenshot3](/img/screenshot3.png)
-![Screenshot4](/img/screenshot4.png)
+![Screenshot1](/img/readmeIMGS/screenshotLanding.png)
+![Screenshot2](/img/readmeIMGS/screenshotNavSkills.png)
+![Screenshot3](/img/readmeIMGS/screenshotProjects.png)
+![Screenshot4](/img/readmeIMGS/screenshotBlogPost.png)
 
 ### <a id="TargetAudience"></a>Target Audience
 
