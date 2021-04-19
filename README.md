@@ -38,9 +38,9 @@ I am a developer and IT professional. This portfolio is built to communicate and
 - Tech Projects
 - External Projects Blog
 
-![wireframe1](/img/readmeIMGS/wireframe1.png)
-![wireframe2](/img/readmeIMGS/wireframe2.png)
-![wireframe3](/img/readmeIMGS/wireframe3.png)
+<img src="/img/readmeIMGS/wireframe1.png" width="200">
+<img src="/img/readmeIMGS/wireframe2.png" width="200">
+<img src="/img/readmeIMGS/wireframe3.png" width="200">
 
 ### <a id="Sitemap"></a>Site Map
 
@@ -48,10 +48,10 @@ I am a developer and IT professional. This portfolio is built to communicate and
 
 ### <a id="Screenshots"></a>Screenshots
 
-<img src="/img/readmeIMGS/screenshotLanding.png" width="100">
-<img src="/img/readmeIMGS/screenshotNavSkills.png" width="100">
-<img src="/img/readmeIMGS/screenshotProjects.png" width="100">
-<img src="/img/readmeIMGS/screenshotBlogPost.png" width="100">
+<img src="/img/readmeIMGS/screenshotLanding.png" width="200">
+<img src="/img/readmeIMGS/screenshotNavSkills.png" width="200">
+<img src="/img/readmeIMGS/screenshotProjects.png" width="200">
+<img src="/img/readmeIMGS/screenshotBlogPost.png" width="200">
 
 ### <a id="TargetAudience"></a>Target Audience
 
