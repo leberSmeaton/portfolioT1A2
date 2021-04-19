@@ -89,4 +89,16 @@ _A collection of screenshots during the work in progress of this portfolio_
 
 #### Trello
 
+![trello](/docs/trello1.png)
+![trello](/docs/trello2.png)
+![trello](/docs/trello4.png)
+![trello](/docs/trello5.png)
+![trello](/docs/trello6.png)
+![trello](/docs/trello8.png)
+
 #### Git Command Line
+
+![gitcommand](/docs/gitcommand1.png)
+![gitcommand](/docs/gitcommand2.png)
+![gitcommand](/docs/gitcommand3.png)
+![gitcommand](/docs/gitcommand4.png)
