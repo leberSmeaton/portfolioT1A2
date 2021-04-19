@@ -48,10 +48,10 @@ I am a developer and IT professional. This portfolio is built to communicate and
 
 ### <a id="Screenshots"></a>Screenshots
 
-<img src="/img/readmeIMGS/screenshotLanding.png" width="50">
-<img src="/img/readmeIMGS/screenshotNavSkills.png" width="50">
-<img src="/img/readmeIMGS/screenshotProjects.png" width="50">
-<img src="/img/readmeIMGS/screenshotBlogPost.png" width="50">
+<img src="/img/readmeIMGS/screenshotLanding.png" width="100">
+<img src="/img/readmeIMGS/screenshotNavSkills.png" width="100">
+<img src="/img/readmeIMGS/screenshotProjects.png" width="100">
+<img src="/img/readmeIMGS/screenshotBlogPost.png" width="100">
 
 ### <a id="TargetAudience"></a>Target Audience
 
