@@ -290,6 +290,10 @@ External Projects Blog
   color: #ff9d72;
 }
 
+#externalProjects article ul {
+  text-align: left;
+}
+
 #externalProjects p {
   text-align: justify;
   font-size: 1.3em;
