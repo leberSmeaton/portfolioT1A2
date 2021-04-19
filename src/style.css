@@ -1,5 +1,6 @@
 /* colors: f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
 /* colors: background gray 444444, offwhite f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
+/* colors: f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
 /* Index.html */
 /* Nav */
 #navFlexColumn {
@@ -290,8 +291,12 @@ External Projects Blog
   color: #ff9d72;
 }
 
-#externalProjects article ul {
-  text-align: left;
+#externalProjects article p strong {
+  color: #ff9d72;
+}
+
+#externalProjects article ul li {
+  list-style: none;
 }
 
 #externalProjects p {
@@ -381,6 +386,7 @@ External Projects Blog
   }
 }
 
+/* Universal sheet styles */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -479,7 +485,7 @@ body {
     width: 90%;
   }
   #projectImages h4 {
-    font-size: 3em;
+    font-size: 2.5em;
     width: 90%;
   }
   #projectImages div {
@@ -611,6 +617,8 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 800px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   #projectArticle section {
     display: -webkit-box;

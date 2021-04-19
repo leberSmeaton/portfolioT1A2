@@ -68,8 +68,15 @@ External Projects Blog
         color: $anchor-hover;
       }
     }
+    p {
+      strong {
+        color: #ff9d72;
+      }
+    }
     ul {
-      text-align: left;
+      li {
+        list-style: none;
+      }
     }
   }
   p {
