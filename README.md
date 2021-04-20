@@ -74,14 +74,15 @@ _Please checkout my portfolio website and skills to see my full tech stack capab
 - Html 5
 - CSS + Sass
 - Javascript
-- Git + GitHub
-- Netlify
-  - Depoloyment
-- Google Fonts + Font Awesome
+  Version Control + Project Management
+- Git
 - Trello
-  - Project Management
+  Depoloyment
+- Netlify
+  Other Features
+- Google Fonts + Font Awesome
+  Communication
 - Discord
-  - Cross communication
 
 ## <a id="WorkInProgress"></a>Work In Progress Shots
 
@@ -98,7 +99,9 @@ _A collection of screenshots during the work in progress of this portfolio_
 
 #### Git Command Line
 
+Showing progression
 ![gitcommand](/docs/gitcommand1.png)
 ![gitcommand](/docs/gitcommand2.png)
+My first branch, merge and branch delete.
 ![gitcommand](/docs/gitcommand3.png)
 ![gitcommand](/docs/gitcommand4.png)
