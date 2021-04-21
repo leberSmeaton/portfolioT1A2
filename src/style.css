@@ -304,6 +304,28 @@ External Projects Blog
   text-align: left;
 }
 
+#externalProjects div ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+#externalProjects div ul li {
+  text-align: left;
+}
+
+#externalProjects div ul li span {
+  padding-right: 10px;
+}
+
+#externalProjects div ul li a {
+  text-decoration: none;
+  color: #ffd66b;
+}
+
+#externalProjects div ul li a:hover {
+  color: #ff9d72;
+}
+
 #externalProjects article {
   width: 100%;
   margin-bottom: 20px;

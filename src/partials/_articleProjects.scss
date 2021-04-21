@@ -64,6 +64,23 @@ External Projects Blog
     h2 {
       text-align: left;
     }
+    ul {
+      list-style: none;
+      padding-left: 10px;
+      li {
+        text-align: left;
+        span {
+          padding-right: 10px;
+        }
+        a {
+          text-decoration: none;
+          color: #ffd66b;
+          &:hover {
+            color: #ff9d72;
+          }
+        }
+      }
+    }
   }
   article {
     width: 100%;
