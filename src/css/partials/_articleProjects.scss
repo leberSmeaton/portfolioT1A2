@@ -19,6 +19,18 @@ Project Articles
     text-align: justify;
     font-size: 1.3em;
     margin-top: 10px;
+    a {
+      color: $anchor-color;
+      font-size: 1em;
+      text-decoration: none;
+      &:hover {
+        color: $anchor-hover;
+        text-decoration: underline;
+      }
+      &:focus {
+        color: $anchor-color;
+      }
+    }
   }
   img {
     width: 100%;
@@ -48,6 +60,7 @@ Project Articles
   }
 
   section.prevNextBtn {
+    margin: 10px 0 30px;
     a {
       color: $anchor-color;
       font-size: 1.2em;
