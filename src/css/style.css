@@ -79,10 +79,14 @@
   border: none;
   color: #000;
   background-color: transparent;
+  padding: 5px;
 }
 
 #navModal button:hover {
-  color: #ff9d72;
+  background: #ffd66b;
+  border-radius: 5px;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
 #navModal button .fas,
