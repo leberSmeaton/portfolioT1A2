@@ -11,6 +11,7 @@ var btn = document.getElementsByClassName("myBtn");
 var span = document.getElementsByClassName("close");
 
 // When the user clicks the button, open the modal 
+// this could be an if else / for loop
 btn[0].onclick = function() {
   modal[0].style.display = "block";
 }
@@ -45,7 +46,7 @@ span[3].onclick = function() {
 // When the user clicks anywhere outside of the modal, close it
 // This is currently broken and does not work.
 window.onclick = function(event) {
-  if (event.target =! modal) {
+  if (event.target == modal) {
     modal.style.display = "none";
   }
 }
