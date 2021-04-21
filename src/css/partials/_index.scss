@@ -104,6 +104,37 @@
       font-family: $h2-font;
       color: $heading-icon-color;
     }
+    form {
+      text-align: left;
+      border: 1px solid #ffd66b;
+      border-radius: 2px;
+      padding: 10px 5px 5px;
+      input[type="text"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+      input[type="email"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+      textarea {
+        width: 100%;
+        height: 50px;
+        padding: 12px 20px;
+      }
+      button {
+        color: #444;
+        background: #ffd66b;
+        border: none;
+        border-radius: 2px;
+        padding: 5px 20px;
+        margin: 8px 0;
+      }
+    }
   }
 
   /* The Close Button */
