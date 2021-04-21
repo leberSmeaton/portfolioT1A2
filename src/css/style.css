@@ -123,6 +123,7 @@
 }
 
 #navModal .modal-content form {
+  font-size: 1em;
   text-align: left;
   border: 1px solid #ffd66b;
   border-radius: 2px;
@@ -607,6 +608,25 @@ body {
   #navModal .modal {
     padding-top: 100px;
     /* Location of the box */
+  }
+  #navModal .modal form {
+    font-size: 1.6em;
+    padding: 10px 5px 5px;
+    margin: 0 10px;
+    width: 100%;
+  }
+  #navModal .modal form input[type="text"] {
+    font-size: 1.2em;
+  }
+  #navModal .modal form input[type="email"] {
+    font-size: 1.2em;
+  }
+  #navModal .modal form textarea {
+    font-size: 1.2em;
+    height: 100px;
+  }
+  #navModal .modal form button {
+    font-size: 1.2em;
   }
   #navModal .close {
     font-size: 50px;

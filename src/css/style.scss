@@ -89,6 +89,25 @@ body {
     /* The Modal (background) */
     .modal {
       padding-top: 100px; /* Location of the box */
+      form {
+        font-size: 1.6em;
+        padding: 10px 5px 5px;
+        margin: 0 10px;
+        width: 100%;
+        input[type="text"] {
+          font-size: 1.2em;
+        }
+        input[type="email"] {
+          font-size: 1.2em;
+        }
+        textarea {
+          font-size: 1.2em;
+          height: 100px;
+        }
+        button {
+          font-size: 1.2em;
+        }
+      }
     }
 
     /* The Close Button */
