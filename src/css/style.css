@@ -562,6 +562,122 @@ External Projects Blog
   }
 }
 
+/* colors: f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
+/* resume.html */
+#resumeHeader {
+  margin: 160px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#resumeHeader img {
+  border-radius: 100%;
+  width: 200px;
+  border: 3px solid #444444;
+  -webkit-box-shadow: 0 0 50px 3px #ffd66b;
+          box-shadow: 0 0 50px 3px #ffd66b;
+}
+
+#resumeHeader h4 {
+  font-style: italic;
+  font-size: 1.5em;
+  margin: 30px 0 0 0;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#professionalSummary,
+#education {
+  border: 1px solid #ffd66b;
+  border-radius: 5px;
+  margin: 40px 0;
+}
+
+.articleContainer {
+  border: 1px solid #ffd66b;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+#projectArticle h4 {
+  position: relative;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.4em;
+  margin: 0 auto;
+  padding: 2px 0;
+  border-top: 1px solid #ffd66b;
+}
+
+#projectArticle p {
+  text-align: justify;
+  font-size: 1em;
+  margin: 20px;
+}
+
+#projectArticle p a {
+  color: #ffd66b;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+#projectArticle p a:hover {
+  color: #ff9d72;
+  text-decoration: underline;
+}
+
+#projectArticle p a:focus {
+  color: #ffd66b;
+}
+
+#projectArticle p.icons {
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#projectArticle article {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+#projectArticle article ul {
+  list-style: none;
+  text-align: left;
+  padding: 20px;
+}
+
+#projectArticle article ul li {
+  padding-bottom: 5px;
+}
+
+#projectArticle article ul li span {
+  margin-left: 20px;
+}
+
 /* Universal sheet styles */
 * {
   -webkit-box-sizing: border-box;
