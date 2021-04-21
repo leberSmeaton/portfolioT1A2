@@ -30,9 +30,13 @@ Project Articles
     a {
       color: $anchor-color;
       font-size: 1.2em;
-
+      text-decoration: none;
       &:hover {
         color: $anchor-hover;
+        text-decoration: underline;
+      }
+      &:focus {
+        color: $anchor-color;
       }
     }
   }
@@ -47,9 +51,13 @@ Project Articles
     a {
       color: $anchor-color;
       font-size: 1.2em;
-
+      text-decoration: none;
       &:hover {
         color: $anchor-hover;
+        text-decoration: underline;
+      }
+      &:focus {
+        color: $anchor-color;
       }
     }
   }
@@ -77,6 +85,7 @@ External Projects Blog
           color: #ffd66b;
           &:hover {
             color: #ff9d72;
+            text-decoration: underline;
           }
         }
       }
@@ -97,9 +106,13 @@ External Projects Blog
     a {
       color: $anchor-color;
       font-size: 1.2em;
-
+      text-decoration: none;
       &:hover {
         color: $anchor-hover;
+        text-decoration: underline;
+      }
+      &:focus {
+        color: $anchor-color;
       }
     }
     p {

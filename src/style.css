@@ -3,6 +3,24 @@
 /* colors: f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
 /* Index.html */
 /* Nav */
+.visually-hidden {
+  /* Contain text within 1px box */
+  height: 1px;
+  overflow: hidden;
+  width: 1px;
+  /* Keep the layout */
+  position: absolute;
+  /* Remove any visible trace (e.g. background color) */
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  /* browsers in the future */
+  /* Prevent the screen reader to skip spaces between words */
+  white-space: nowrap;
+}
+
 #navFlexColumn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,6 +60,7 @@
 
 #navModal a:hover {
   color: #ff9d72;
+  text-decoration: underline;
 }
 
 #navModal h2 {
@@ -166,6 +185,11 @@
 
 #landing a:hover {
   color: #ff9d72;
+  text-decoration: underline;
+}
+
+#landing a:focus {
+  color: #ffd66b;
 }
 
 /* main */
@@ -221,10 +245,16 @@ footer p {
 
 footer p a {
   color: #ffd66b;
+  text-decoration: none;
 }
 
 footer p a:hover {
   color: #ff9d72;
+  text-decoration: underline;
+}
+
+footer p a:focus {
+  color: #ffd66b;
 }
 
 /* 
@@ -263,10 +293,16 @@ Project Articles
 #projectArticle article a {
   color: #ffd66b;
   font-size: 1.2em;
+  text-decoration: none;
 }
 
 #projectArticle article a:hover {
   color: #ff9d72;
+  text-decoration: underline;
+}
+
+#projectArticle article a:focus {
+  color: #ffd66b;
 }
 
 #projectArticle section.icons {
@@ -283,10 +319,16 @@ Project Articles
 #projectArticle section.prevNextBtn a {
   color: #ffd66b;
   font-size: 1.2em;
+  text-decoration: none;
 }
 
 #projectArticle section.prevNextBtn a:hover {
   color: #ff9d72;
+  text-decoration: underline;
+}
+
+#projectArticle section.prevNextBtn a:focus {
+  color: #ffd66b;
 }
 
 /* 
@@ -324,6 +366,7 @@ External Projects Blog
 
 #externalProjects div ul li a:hover {
   color: #ff9d72;
+  text-decoration: underline;
 }
 
 #externalProjects article {
@@ -344,10 +387,16 @@ External Projects Blog
 #externalProjects article a {
   color: #ffd66b;
   font-size: 1.2em;
+  text-decoration: none;
 }
 
 #externalProjects article a:hover {
   color: #ff9d72;
+  text-decoration: underline;
+}
+
+#externalProjects article a:focus {
+  color: #ffd66b;
 }
 
 #externalProjects article p strong {

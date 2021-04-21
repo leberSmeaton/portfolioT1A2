@@ -1,7 +1,24 @@
 /* colors: f4f4f4, orange ff9d72, yellow ffd66b, 654062*/
 
 /* Index.html */
+
 /* Nav */
+// providing a name for the nav modal icons
+.visually-hidden {
+  /* Contain text within 1px box */
+  height: 1px;
+  overflow: hidden;
+  width: 1px;
+  /* Keep the layout */
+  position: absolute;
+  /* Remove any visible trace (e.g. background color) */
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%); /* browsers in the future */
+  /* Prevent the screen reader to skip spaces between words */
+  white-space: nowrap;
+}
+
 #navFlexColumn {
   display: flex;
   justify-content: space-evenly;
@@ -33,6 +50,7 @@
 
     &:hover {
       color: $anchor-hover;
+      text-decoration: underline;
     }
   }
 
@@ -143,6 +161,10 @@
 
     &:hover {
       color: $anchor-hover;
+      text-decoration: underline;
+    }
+    &:focus {
+      color: $anchor-color;
     }
   }
 }
@@ -189,9 +211,14 @@ footer {
     margin: 0 0 10px 0;
     a {
       color: $anchor-color;
+      text-decoration: none;
 
       &:hover {
         color: $anchor-hover;
+        text-decoration: underline;
+      }
+      &:focus {
+        color: $anchor-color;
       }
     }
   }
