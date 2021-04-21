@@ -280,6 +280,15 @@ Project Articles
   margin-bottom: 40px;
 }
 
+#projectArticle section.prevNextBtn a {
+  color: #ffd66b;
+  font-size: 1.2em;
+}
+
+#projectArticle section.prevNextBtn a:hover {
+  color: #ff9d72;
+}
+
 /* 
 External Projects Blog
 */

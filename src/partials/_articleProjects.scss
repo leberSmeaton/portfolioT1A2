@@ -42,6 +42,17 @@ Project Articles
     justify-content: space-evenly;
     margin-bottom: 40px;
   }
+
+  section.prevNextBtn {
+    a {
+      color: $anchor-color;
+      font-size: 1.2em;
+
+      &:hover {
+        color: $anchor-hover;
+      }
+    }
+  }
 }
 
 /* 
