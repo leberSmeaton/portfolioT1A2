@@ -22,18 +22,13 @@ body {
 /* ipad */
 @media screen and (min-width: 400px) {
   #navModal {
-    background-image: none;
-
-    a {
-      font-size: 1em;
-    }
-
+    // background-image: none;
     p {
-      font-size: 2em;
+      font-size: 1.5em;
     }
 
     h2 {
-      letter-spacing: 1.2px;
+      // letter-spacing: 1.2px;
       font-size: 3em;
     }
 
@@ -88,7 +83,22 @@ body {
 
     /* The Modal (background) */
     .modal {
-      padding-top: 100px; /* Location of the box */
+      padding-top: 85px; /* Location of the box */
+    }
+
+    /* The Close Button */
+    .close {
+      font-size: 50px;
+    }
+
+    .modal-content {
+      padding: 0 100px;
+      .fab,
+      .fas {
+        font-size: 80px;
+        padding: 10px;
+        margin: 4px;
+      }
       form {
         font-size: 1.6em;
         padding: 10px 5px 5px;
@@ -109,20 +119,6 @@ body {
         }
       }
     }
-
-    /* The Close Button */
-    .close {
-      font-size: 50px;
-    }
-
-    .modal-content {
-      .fab,
-      .fas {
-        font-size: 80px;
-        padding: 10px;
-        margin: 4px;
-      }
-    }
   }
 
   #landing {
@@ -130,10 +126,7 @@ body {
       width: 350px;
     }
     h4 {
-      font-size: 3em;
-    }
-    a {
-      font-size: 3em;
+      font-size: 1.8em;
     }
   }
 
@@ -162,73 +155,19 @@ body {
 /* desktop */
 @media screen and (min-width: 800px) {
   #navModal {
-    background-image: none;
+    // background-image: none;
 
     a {
       font-size: 1em;
     }
 
     p {
-      font-size: 2em;
-    }
-
-    h2 {
-      letter-spacing: 1.2px;
-      font-size: 3em;
-    }
-
-    button {
-      .fas,
-      .fab {
-        font-size: 80px;
-      }
-    }
-
-    #navFlexColumn {
-      .icon1 {
-        margin: 5px 0 0 5px;
-        position: fixed;
-        left: 0;
-        top: 0;
-        .myBtn {
-          color: #000000;
-        }
-      }
-
-      .icon2 {
-        margin: 5px 5px 0 0;
-        position: fixed;
-        right: 0;
-        top: 0;
-        .myBtn {
-          color: #000;
-        }
-      }
-
-      .icon3 {
-        margin: 0 5px 5px 0;
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        .myBtn {
-          color: #000;
-        }
-      }
-
-      .icon4 {
-        margin: 0 0 5px 5px;
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        .myBtn {
-          color: #000;
-        }
-      }
+      font-size: 1.5em;
     }
 
     /* The Modal (background) */
     .modal {
-      padding-top: 100px; /* Location of the box */
+      padding-top: 85px; /* Location of the box */
     }
 
     /* The Close Button */
@@ -237,11 +176,26 @@ body {
     }
 
     .modal-content {
-      .fab,
-      .fas {
-        font-size: 80px;
-        padding: 10px;
-        margin: 4px;
+      padding-right: 200px;
+      padding-left: 200px;
+      padding-bottom: 20px;
+      form {
+        width: 600px;
+        font-size: 1.2em;
+        padding: 10px 5px 5px;
+        margin: 0 10px;
+        input[type="text"] {
+          font-size: 1em;
+        }
+        input[type="email"] {
+          font-size: 1em;
+        }
+        textarea {
+          font-size: 1em;
+        }
+        button {
+          font-size: 1em;
+        }
       }
     }
   }
@@ -253,9 +207,9 @@ body {
     h4 {
       font-size: 2em;
     }
-    a {
-      font-size: 2.5em;
-    }
+    // a {
+    //   font-size: 2.5em;
+    // }
   }
 
   #projectImages {
