@@ -156,6 +156,10 @@ main {
 #projectImages {
   img {
     width: 100%;
+    border: 1px solid #ffd66b;
+    &:hover {
+      box-shadow: 5px 5px 5px #ffd66b;
+    }
   }
   h4 {
     position: relative;
@@ -168,6 +172,12 @@ main {
   }
   div {
     padding-bottom: 50px;
+    section {
+      font-size: 1.2em;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 5px 0 10px;
+    }
   }
 }
 

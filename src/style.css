@@ -176,6 +176,12 @@ main {
 /* project images */
 #projectImages img {
   width: 100%;
+  border: 1px solid #ffd66b;
+}
+
+#projectImages img:hover {
+  -webkit-box-shadow: 5px 5px 5px #ffd66b;
+          box-shadow: 5px 5px 5px #ffd66b;
 }
 
 #projectImages h4 {
@@ -190,6 +196,17 @@ main {
 
 #projectImages div {
   padding-bottom: 50px;
+}
+
+#projectImages div section {
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 5px 0 10px;
 }
 
 /* Footer */
@@ -250,6 +267,17 @@ Project Articles
 
 #projectArticle article a:hover {
   color: #ff9d72;
+}
+
+#projectArticle section.icons {
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 40px;
 }
 
 /* 
@@ -484,12 +512,16 @@ body {
   #projectImages img {
     width: 90%;
   }
+  #projectImages img:hover {
+    -webkit-box-shadow: 5px 5px 5px #ffd66b;
+            box-shadow: 5px 5px 5px #ffd66b;
+  }
   #projectImages h4 {
     font-size: 2.5em;
     width: 90%;
   }
   #projectImages div {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
   }
   footer {
     width: 65%;
@@ -589,6 +621,10 @@ body {
   #projectImages div img {
     width: 400px;
   }
+  #projectImages div img:hover {
+    -webkit-box-shadow: 5px 5px 5px #ffd66b;
+            box-shadow: 5px 5px 5px #ffd66b;
+  }
   #projectImages div h4 {
     font-size: 2em;
     width: 100%;
@@ -636,6 +672,9 @@ body {
   }
   #projectArticle article h4 {
     font-size: 1.6em;
+  }
+  #projectArticle section.icons {
+    font-size: 2em;
   }
   #externalProjects {
     display: -webkit-box;
