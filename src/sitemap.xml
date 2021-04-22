@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://bella-leber-smeaton-portfolio.netlify.app/index.html</loc>
+  <lastmod>2021-04-22T07:41:37+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://bella-leber-smeaton-portfolio.netlify.app/pages/resume.html</loc>
+  <lastmod>2021-04-22T07:41:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bella-leber-smeaton-portfolio.netlify.app/pages/projectexternalprojects</loc>
+  <lastmod>2021-04-22T07:41:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bella-leber-smeaton-portfolio.netlify.app/pages/projectthunders</loc>
+  <lastmod>2021-04-22T07:41:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bella-leber-smeaton-portfolio.netlify.app/pages/projectportfoliowebsite</loc>
+  <lastmod>2021-04-22T07:41:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bella-leber-smeaton-portfolio.netlify.app/pages/projectttotal</loc>
+  <lastmod>2021-04-22T07:41:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bella-leber-smeaton-portfolio.netlify.app/pages/projectcsszen</loc>
+  <lastmod>2021-04-22T07:41:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bella-leber-smeaton-portfolio.netlify.app/pages/projectbandwebsite</loc>
+  <lastmod>2021-04-22T07:41:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bella-leber-smeaton-portfolio.netlify.app/</loc>
+  <lastmod>2021-04-22T07:41:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
