@@ -218,6 +218,30 @@
           box-shadow: 0 0 50px 3px #ffd66b;
 }
 
+#landing img.imageSpin {
+  position: relative;
+  -webkit-animation-name: spin;
+          animation-name: spin;
+}
+
+#landing img.imageSpin:hover {
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
 #landing h4 {
   font-style: italic;
   font-size: 1.5em;
