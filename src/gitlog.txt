@@ -1,0 +1,570 @@
+commit c46d1ba227f495ce3e04a05352e587639087bb53
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Thu Apr 22 17:46:49 2021 +1000
+
+    added sitemap
+
+commit 48f2a72491b5e99ba036bfed904091e9cdfd2856
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Thu Apr 22 17:39:39 2021 +1000
+
+    testing out css file paths that Netlify will recognise
+
+commit d1643c65cd1dc18bbf75f5262c31e5e76768c713
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Thu Apr 22 17:32:27 2021 +1000
+
+    testing out css file paths that Netlify will recognise
+
+commit 4dba3661dcdabffb4f47cf5f6ef017b8a53101df
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Thu Apr 22 17:22:58 2021 +1000
+
+    testing out css file paths that Netlify will recognise
+
+commit 59ea9e244b07c498dc5fabd3de69f1eb631e4043
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Thu Apr 22 17:17:23 2021 +1000
+
+    testing out css file paths that Netlify will recognise
+
+commit e02dd0d090d07de4787c616c502555fb2ae94d37
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Thu Apr 22 17:11:20 2021 +1000
+
+    testing out css file paths that Netlify will recognise
+
+commit 3ef9b7268ea688e344bc51896967c082876b1065
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Thu Apr 22 15:45:11 2021 +1000
+
+    added cool spinning feature on hover of landing image. It's a start to using animation and keyframes
+
+commit ead2f58f44a857bfb643a4fa3ddaed4f3cd34272
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Thu Apr 22 15:22:11 2021 +1000
+
+    updated form across all pages in nav
+
+commit aeaf9993979886613ff9dd66c907f50fb5ec36af
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Thu Apr 22 13:36:17 2021 +1000
+
+    updating ppt and resume page
+
+commit 8a7074bc32e7d3981271cbfe1f0f764f2d6bac7c
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Thu Apr 22 00:50:56 2021 +1000
+
+    playing around with resume page styling
+
+commit 2da96adea78a0778b4d69b56dfbe9d154bd2e77d
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Thu Apr 22 00:01:49 2021 +1000
+
+    added background on nav icon
+
+commit 7c1734d44fba719da037aa3783f99b4df61e28c2
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 23:52:48 2021 +1000
+
+    testing onclick window close
+
+commit 2957326429c8c70f0b3cc899ea96bc45f6677921
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 23:30:14 2021 +1000
+
+    added border on project images
+
+commit 84c4b05d05e33a2a17db52004fc95d262d065c2c
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 23:26:34 2021 +1000
+
+    removed resume download links and created resume internal page.
+
+commit 2d35a767946e74cb8ffae44a5735fe09f05de071
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 22:46:00 2021 +1000
+
+    updating element padding on articles and sections
+
+commit 5c1c131133056c9f5f0aea00a0967dcb072f49a2
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 22:23:42 2021 +1000
+
+    removed up and down icons for readability and accessibility.
+
+commit 08ac9536731e637fe6a4a463adc29c224f41fc37
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 21:00:00 2021 +1000
+
+    added form section in contact modal
+
+commit ae82cfe62ec9b4672dfb1d62b632952505182f92
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 17:38:37 2021 +1000
+
+    updating image file pathways
+
+commit d4ab9a9ac9c235962b6808a64934fe51f1d6df5c
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 17:01:59 2021 +1000
+
+    updating image file pathways
+
+commit 12fa157f45dd04886013ad6c131d707307b73088
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 16:57:27 2021 +1000
+
+    updating css js file pathway as it's broken on netlify
+
+commit f3232175a719bddbe2fd58bb2956210f59e561a0
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 16:56:23 2021 +1000
+
+    updating form in contact
+
+commit ab70e002a36ecc74d7ac7041dd4146e941abf141
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 15:57:02 2021 +1000
+
+    deleted sitemap as no longer relevant
+
+commit b0d98e642f41a0c859f91217daea235673c02ad8
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 15:55:37 2021 +1000
+
+    updated links in pages folder
+
+commit b51cb855fae6043ee4a1a3fd6b5402b3d01aed61
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 15:31:22 2021 +1000
+
+    updated links in index.html
+
+commit 84fc6fad1f94a16ec7618beb32c53197c36ceb3d
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 15:08:21 2021 +1000
+
+    renamed folders and reorganised structure for submission
+
+commit 9cdd687feb6394a9be6a0d1e2139e0d395b473b9
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 13:57:34 2021 +1000
+
+    placed hidden naming tags to icons for accessibility
+
+commit fe6c2ca8f21ac48884008e07360d2d2214dc0530
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 13:04:02 2021 +1000
+
+    added appropriate alt tags on image links and images
+
+commit 6d2c9a52a8b3dd311f3aeeb9b69b9d3e2ce16117
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 12:44:40 2021 +1000
+
+    added internal page blog linksthat direct to blog section
+
+commit bebcfa4d701a48391673d3951fb0562c376226a8
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 12:15:08 2021 +1000
+
+    added previous and next links. Added scss styles
+
+commit c5adf999382167b95f5908f214933340236a5f7b
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 12:02:24 2021 +1000
+
+    added previous and next links to projects
+
+commit 6b096cabfa9bb812bf67a971f3998f0f33ca12b6
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 11:35:44 2021 +1000
+
+    Added project icons. Added on hover on project images
+
+commit d4db0efa4744e54a61776c664bfeb174c5eba898
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 09:39:17 2021 +1000
+
+    updated SiteMap in readme
+
+commit 4da0d2bccf1bfb6a2c8cd7cfd721d285ff07b3bf
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 21 09:11:21 2021 +1000
+
+    Uploaded sitemap.xml into the domain root folder of my website
+
+commit abff1fd980f6844318dc6b7f0c04f3366c11f634
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 20 14:29:17 2021 +1000
+
+    updated footer across all pages
+
+commit b474491cfc872f526564df85bdee5998af92c5c1
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 20 08:12:24 2021 +1000
+
+    minor javascript update. No code change
+
+commit f64127f7bdb8b8e17ca8b83b990cf5212e676824
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 17:08:58 2021 +1000
+
+    movadded trello and git command screenshots
+
+commit c7fe4a64522c2cc703a0947e2a35f7fc9cb73858
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 17:00:34 2021 +1000
+
+    moved readme images to docs folder.
+
+commit a13a4fab13bbdb801fe4d8c94e70e1f2f780d04d
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 14:10:15 2021 +1000
+
+    added height on images
+
+commit 1aba4946df41c39c765fa2f2631d472b4e11e5e7
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 14:08:36 2021 +1000
+
+    added height on images
+
+commit e0310c7eadb03b35b760d056c0c22292159d3118
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 14:07:46 2021 +1000
+
+    added height on images
+
+commit e68fdc2c61bd993836dccc3091219ccab1a88473
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 14:05:39 2021 +1000
+
+    added height on images
+
+commit ebf4167c1aa6f6540aa20318479106e078283bfd
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 14:02:14 2021 +1000
+
+    added height on images
+
+commit a4bd33032d744bffc3565e719f98b06659827fe6
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 13:01:32 2021 +1000
+
+    moved readme images into their own img folder. Added screenshots into README.md
+
+commit c22fb4bed7c72e81630c48c5f37c65209ec29739
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 12:49:18 2021 +1000
+
+    updating html5 semantics and continuity across internal pages
+
+commit ecb5d5fda6031188675eeb8d646776f7b89a7291
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 12:22:03 2021 +1000
+
+    added comments to html and css to describe features
+
+commit 8a27b0d34a90601a79db1ca7037f5edc12bdcc7b
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 12:05:48 2021 +1000
+
+    adding to name, contact details and link details to nav to complete requirements
+
+commit 4dc7ea6c47bc52de2596d28948b020830e3823e5
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 11:26:19 2021 +1000
+
+    Added 5th blog post because I forgot. Added an image
+
+commit eeb60e0979070537705eaa78a0ede9541f757016
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 10:21:25 2021 +1000
+
+    created new partial index.scss for styles associated with home/landing page/index.html
+
+commit ae42bd64e76697184b23ef349a7439818f3cc800
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 10:16:07 2021 +1000
+
+    created new partial articleProject.scss for styles associated with project and blog articles
+
+commit fb902058854f8f004b442bb85ab9100171ee54b3
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 19 09:38:23 2021 +1000
+
+    updated blog articles to be responsive
+
+commit 57899a3fc6001d076d489ee02c5c6ca7fc02ff42
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Sun Apr 18 21:40:20 2021 +1000
+
+    added responsive quality to blog and applied branch. Hopefully works
+
+commit 17b940160543db4ca6f38af0c5055b2c7ad7fe6a
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Sun Apr 18 20:31:15 2021 +1000
+
+    updated project headings for readability
+
+commit 0d0c8c74fcd8b98f9124d2f5ee10e7e3f898c7d8
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Sun Apr 18 19:19:42 2021 +1000
+
+    download resume button
+
+commit eb30dda4a63d34eb88ae8492a32ab80f091f526e
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Thu Apr 15 12:31:17 2021 +1000
+
+    updated image
+
+commit d07a8b99a5cde52f02ab6c277180ecd22a4da512
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 14 16:50:41 2021 +1000
+
+    setting up section containers for future flex box on ipad-desktop sizes
+
+commit 93aa093f0ea35a6bd06788949b22c6d7ed6c7d94
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 14 16:32:26 2021 +1000
+
+    applied desktop nav modal across all pages
+
+commit 2e2781ae316b98d68166e87df82d4ed4cbcb9bc1
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 14 16:25:48 2021 +1000
+
+    responsive applied to index.html
+
+commit 71b90942c28a7021e5e06fb180cc18c4f3bc34b9
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 14 13:45:28 2021 +1000
+
+    started ipad responsive code in scss. Upping font size and icon nav placement
+
+commit ac2daf8da4ade30fedb3b12c5af77c788f609f5e
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 14 11:45:11 2021 +1000
+
+    removed header heading for setup of responsive
+
+commit 3c4f90fc33f6c2f4aa999789ed79bfbb0d20e6b5
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 14 11:36:07 2021 +1000
+
+    updated nav, and google fonts across all internal linked pages
+
+commit bdc23359177d3147dc41304f2a6b9fa1d7f7b1d2
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 14 11:12:37 2021 +1000
+
+    updating README.md and added images
+
+commit 9c879e8a25251dbe076cefa4b414538b6dc2c094
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 14 11:02:06 2021 +1000
+
+    updating README.md
+
+commit d789e59bad0ccbd5c8494f81e26a1e30fbf3dfc8
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 14 10:58:40 2021 +1000
+
+    updating README.md
+
+commit 2ccd8d3f1e5d8fa7c4f097da64d2dd7ff9afd623
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 14 10:55:52 2021 +1000
+
+    updating README.md
+
+commit e3173598e082aec669ed8497ca170e8df8ed69a6
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 14 10:53:51 2021 +1000
+
+    updating README.md document. Testing internal anchor links
+
+commit f07b4fc1c0f4969450abaffcafa1c97e9597e451
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Wed Apr 14 10:08:45 2021 +1000
+
+    working on README.md document.
+
+commit 58e5cfc81023f2e415dade436ceea15a470e8397
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 13 17:43:30 2021 +1000
+
+    fix nav bar to top and gave it a 180deg gradient background
+
+commit 98a466ea74e4df2edd767bf08f479b90530462b1
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 13 15:50:42 2021 +1000
+
+    added scss variables
+
+commit dc98e762d4285e53c811c8066ed4fb0e485b86fc
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 13 15:22:16 2021 +1000
+
+    In CSS Zen Garden and Band Website put projects inside articles
+
+commit 13a7df4ecb1d9dc0afd8fa27039ccc546ce9d9e0
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 13 15:12:14 2021 +1000
+
+    In Thunders Project put projects inside articles
+
+commit e36a93e4c2303cbf17d53ebc001bc7224cfb8935
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 13 15:05:45 2021 +1000
+
+    added updated nav across all pages. Put images and paragraphs inside article in TTotal project.
+
+commit b823f1fe3f0a15e9be914295b529cc27940fa20e
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 13 15:00:13 2021 +1000
+
+    formatting modal pop-up
+
+commit 03f01c649460862f4c9657ad604853cd49fee707
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 13 14:25:55 2021 +1000
+
+    had issue with external project javascript, but page wasn't updated with nav, problem resolved
+
+commit f9cdb1781734fea476cbf092289fdb461837eef8
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 13 12:14:14 2021 +1000
+
+    added icons to skills
+
+commit a0571f4191b125aed332448aaa7dedf0653cc16b
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 13 09:58:23 2021 +1000
+
+    fixed javascript on external projects blog image carosels
+
+commit 6effc6d759729ac2edb27ba44d36ad15338a82c2
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 13 08:20:38 2021 +1000
+
+    updated js script files
+
+commit c248fd1f984955175e82a0fa08e07e02eb56641e
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 13 08:15:41 2021 +1000
+
+    added js file moved script to js file
+
+commit a3c77addb42ba8c242a1c535c8e74de9cdb6b725
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Tue Apr 13 08:13:17 2021 +1000
+
+    added image sliders to blog page to all projects, issue with numbering
+
+commit cb385b4142f6e9b0e77ca07e387d40f33967210f
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 22:54:22 2021 +1000
+
+    added more detail to external projects blog and added a image slider.
+
+commit e8f1232b98f99c7a634d335560e9f7ca0e8a0f78
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 22:21:35 2021 +1000
+
+    updated link to home page on feature bella title on all linked pages
+
+commit 079c58152de30c5ee2d4049d0e6fc01c86f7bdf3
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 22:17:58 2021 +1000
+
+    updated index landing added resume feature
+
+commit 8cb9e4c5a333b1805e4302c43a894b207fe15ac0
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 17:47:59 2021 +1000
+
+    added band website project with lorem and images
+
+commit 6bf65af7e8b30db7cdf570670069dd4b8a1f03e2
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 17:45:43 2021 +1000
+
+    adding css zen garden lorem and images
+
+commit bec39637125b8742f3220e8c8821037086b15bed
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 17:42:22 2021 +1000
+
+    filling previous project page with lorem and images
+
+commit 74f57f17737e9d307aee8f8ddef124b4f6361d40
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 17:35:00 2021 +1000
+
+    creating links to projects on main page
+
+commit 9ff211ba4039c83d3a94578a807211ab9c882b8f
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 16:42:34 2021 +1000
+
+    added internal links to header and direct to projects
+
+commit 5e7ffc4beb11a54167c5eb7019fd7bf3b74ac4c9
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 16:39:26 2021 +1000
+
+    landing page image project titles with transperant backgrounds
+
+commit c5db8f61ae1365dd3a64b44fb283d67c9c61590a
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 16:20:18 2021 +1000
+
+    updated footer and added box shadow to image
+
+commit c2446710f5c55f4c4a1f9efd869f53886a301e86
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 15:51:40 2021 +1000
+
+    creating modal position for mobile, setting background and text position in modal box
+
+commit 4e9892f29eb16e7fd6e64a0968de95ce9850a721
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 14:58:25 2021 +1000
+
+    beginning sass of modal
+
+commit 3dff1261c04f414d2a4ab122bd4a531ba1fb57d5
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 12:55:13 2021 +1000
+
+    Merged and deleted branches. Added scss.
+
+commit b6ca5ce5d1df9f923ece0009908aa825f8c7b7b2
+Merge: 9acdf7a f756c21
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 12:24:26 2021 +1000
+
+    merge footer into main
+
+commit f756c218df67bbe4c1f9a9b11255b0d99c24eb88
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 12:04:15 2021 +1000
+
+    added footer branch and content
+
+commit 9acdf7a26359cabb7f9d02216246498c0d887b9f
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 11:52:40 2021 +1000
+
+    adding main branch and modal branch changes
+
+commit 9d6e274d2ddeca025de5a5580edaa696d1b90330
+Author: leberSmeaton <77179232+leberSmeaton@users.noreply.github.com>
+Date:   Mon Apr 12 11:01:42 2021 +1000
+
+    initial commit of files and start of index.html
